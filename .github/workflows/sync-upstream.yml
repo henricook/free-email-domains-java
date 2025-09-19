@@ -45,10 +45,12 @@ jobs:
           # Count domains for the commit message
           OLD_COUNT=$(jq length domains.json.old)
           NEW_COUNT=$(jq length src/main/resources/domains.json)
+          DIFF=$((NEW_COUNT - OLD_COUNT))
           echo "OLD_COUNT=$OLD_COUNT" >> $GITHUB_ENV
           echo "NEW_COUNT=$NEW_COUNT" >> $GITHUB_ENV
+          echo "DIFF=$DIFF" >> $GITHUB_ENV
 
-          echo "Domains updated: $OLD_COUNT -> $NEW_COUNT"
+          echo "Domains updated: $OLD_COUNT -> $NEW_COUNT (diff: $DIFF)"
         else
           echo "DOMAINS_CHANGED=false" >> $GITHUB_ENV
           echo "No changes detected in domains.json"
@@ -80,7 +82,7 @@ jobs:
           Update domains.json from upstream
 
           Synced with Kikobeats/free-email-domains
-          Domain count: ${{ env.OLD_COUNT }} -> ${{ env.NEW_COUNT }}
+          Domain count: ${{ env.OLD_COUNT }} -> ${{ env.NEW_COUNT }} (${{ env.DIFF }})
         title: 'Update domains.json from upstream'
         body: |
           ## Automatic upstream sync
@@ -89,7 +91,7 @@ jobs:
 
           **Changes:**
           - Domain count: ${{ env.OLD_COUNT }} → ${{ env.NEW_COUNT }}
-          - Difference: ${{ env.NEW_COUNT - env.OLD_COUNT }} domains
+          - Difference: ${{ env.DIFF }} domains
 
           **Tests:** ✅ All tests pass with the updated domain list
 
