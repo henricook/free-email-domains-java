@@ -18,6 +18,8 @@ def generate_domains_java():
     # Create the Java source code
     java_source = f'''package com.henricook.freeemaildomains.internal;
 
+import java.util.Collections;
+import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -32,19 +34,20 @@ public final class DomainsData {{
     /**
      * Immutable set of all free email domain names in lowercase.
      */
-    public static final Set<String> DOMAINS = Set.of(
+    public static final Set<String> DOMAINS;
+
+    static {{
+        Set<String> domains = new HashSet<>({len(domains)});
 '''
 
     # Add all domains, properly escaped and quoted
-    for i, domain in enumerate(domains):
+    for domain in domains:
         # Escape any quotes in domain names
         escaped_domain = domain.replace('"', '\\"')
+        java_source += f'        domains.add("{escaped_domain}");\n'
 
-        # Add comma except for last item
-        comma = "," if i < len(domains) - 1 else ""
-        java_source += f'        "{escaped_domain}"{comma}\n'
-
-    java_source += '''    );
+    java_source += '''        DOMAINS = Collections.unmodifiableSet(domains);
+    }
 
     private DomainsData() {
         // Utility class
