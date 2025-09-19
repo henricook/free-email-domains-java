@@ -18,10 +18,10 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
 
     - name: Set up JDK 8
-      uses: actions/setup-java@v4
+      uses: actions/setup-java@v5
       with:
         java-version: 8
         distribution: 'temurin'
@@ -61,7 +61,7 @@ jobs:
         passphrase: ${{ secrets.GPG_PASSPHRASE }}
 
     - name: Configure Maven settings
-      uses: actions/setup-java@v4
+      uses: actions/setup-java@v5
       with:
         java-version: 8
         distribution: 'temurin'
@@ -87,12 +87,10 @@ jobs:
         MAVEN_GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
 
     - name: Create GitHub Release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: softprops/action-gh-release@v2
       with:
         tag_name: v${{ steps.version.outputs.version }}
-        release_name: Release v${{ steps.version.outputs.version }}
+        name: Release v${{ steps.version.outputs.version }}
         body: |
           ## Release v${{ steps.version.outputs.version }}
 
@@ -116,14 +114,8 @@ jobs:
 
           **Note:** It may take up to 2 hours for the release to be available on Maven Central.
         draft: false
-        prerelease: false
-
-    - name: Upload artifacts to release
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: target/free-email-domains-java-${{ steps.version.outputs.version }}.jar
-        asset_name: free-email-domains-java-${{ steps.version.outputs.version }}.jar
-        asset_content_type: application/java-archive
+        prerelease: ${{ contains(github.ref, 'rc') || contains(github.ref, 'beta') || contains(github.ref, 'alpha') }}
+        files: |
+          target/free-email-domains-java-${{ steps.version.outputs.version }}.jar
+          target/free-email-domains-java-${{ steps.version.outputs.version }}-sources.jar
+          target/free-email-domains-java-${{ steps.version.outputs.version }}-javadoc.jar
