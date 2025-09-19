@@ -115,7 +115,7 @@ The library detects 4,700+ free email providers including:
 - **International providers**: yandex.ru, mail.ru, qq.com, 163.com
 - **Temporary email services**: 10minutemail.com, guerrillamail.com
 - **Privacy-focused**: protonmail.com, tutanota.com
-- **Many more...** - See [domains.json](src/main/resources/domains.json) for the complete list
+- **Many more...** - See [DomainsData.java](src/main/java/com/henricook/freeemaildomains/internal/DomainsData.java) for the complete list
 
 ## Performance
 
