@@ -12,7 +12,7 @@ Based on [HubSpot's blocked domains list](https://knowledge.hubspot.com/articles
 - ✅ **Fast O(1) lookups** - Efficient HashSet-based domain checking
 - ✅ **Comprehensive coverage** - 4,700+ free email domains
 - ✅ **Thread-safe** - Safe for concurrent use
-- ✅ **Zero dependencies** - Only depends on Jackson for JSON parsing
+- ✅ **Zero dependencies** - Pure Java with no external dependencies
 - ✅ **Java 8+ compatible** - Works with any modern Java or Scala project
 - ✅ **Auto-sync** - Automatically updated when upstream changes
 - ✅ **Lightweight** - Small JAR size with minimal footprint
@@ -164,7 +164,7 @@ Extract domain from email address or return as-is if already a domain.
 ## Requirements
 
 - **Java 8+** or **Scala 2.12+**
-- **Jackson Databind** 2.15.2+ (automatically included)
+- **No external dependencies** - Pure Java
 
 ## Versioning
 

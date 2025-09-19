@@ -1,6 +1,6 @@
 package com.henricook.freeemaildomains;
 
-import com.henricook.freeemaildomains.internal.DomainsLoader;
+import com.henricook.freeemaildomains.internal.DomainsData;
 
 import java.util.Locale;
 import java.util.Set;
@@ -33,8 +33,6 @@ import java.util.Set;
  */
 public final class FreeEmailDomains {
 
-    private static volatile Set<String> freeEmailDomains;
-
     private FreeEmailDomains() {
         // Utility class
     }
@@ -55,7 +53,7 @@ public final class FreeEmailDomains {
         }
 
         String domain = extractDomain(emailOrDomain.trim());
-        return getDomains().contains(domain.toLowerCase(Locale.ROOT));
+        return DomainsData.DOMAINS.contains(domain.toLowerCase(Locale.ROOT));
     }
 
     /**
@@ -67,7 +65,7 @@ public final class FreeEmailDomains {
      * @return an immutable set of all free email domain names
      */
     public static Set<String> all() {
-        return getDomains();
+        return DomainsData.DOMAINS;
     }
 
     /**
@@ -103,22 +101,5 @@ public final class FreeEmailDomains {
         }
 
         return trimmed.substring(atIndex + 1);
-    }
-
-    /**
-     * Lazy-loaded getter for the domains set.
-     * Uses double-checked locking for thread-safe singleton initialization.
-     */
-    private static Set<String> getDomains() {
-        Set<String> result = freeEmailDomains;
-        if (result == null) {
-            synchronized (FreeEmailDomains.class) {
-                result = freeEmailDomains;
-                if (result == null) {
-                    freeEmailDomains = result = DomainsLoader.loadDomains();
-                }
-            }
-        }
-        return result;
     }
 }
