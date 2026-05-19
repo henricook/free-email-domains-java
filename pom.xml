@@ -6,7 +6,7 @@
 
     <groupId>com.henricook</groupId>
     <artifactId>free-email-domains-java</artifactId>
-    <version>1.2.21</version>
+    <version>1.9.9</version>
     <packaging>jar</packaging>
 
     <name>free-email-domains-java</name>
