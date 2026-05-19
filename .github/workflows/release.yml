@@ -7,11 +7,11 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Version to release (e.g., 1.2.21)'
+        description: 'Version to release (e.g., 1.9.9). Leave blank to use upstream latest.'
         required: false
 
 concurrency:
-  group: release-${{ github.ref }}
+  group: release-maven-central
   cancel-in-progress: false
 
 jobs:
@@ -23,26 +23,67 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v5
+      with:
+        fetch-depth: 0
+        fetch-tags: true
 
-    - name: Determine version
+    - name: Determine and validate version
       id: version
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
+        set -euo pipefail
         if [ -n "${{ github.event.inputs.version }}" ]; then
           VERSION="${{ github.event.inputs.version }}"
+          SOURCE="workflow_dispatch input"
         elif [[ $GITHUB_REF == refs/tags/* ]]; then
           VERSION=${GITHUB_REF#refs/tags/v}
+          SOURCE="git tag"
         else
-          # Get version from upstream
-          UPSTREAM_VERSION=$(curl -s https://api.github.com/repos/Kikobeats/free-email-domains/releases/latest | jq -r .tag_name | sed 's/^v//')
-          VERSION="$UPSTREAM_VERSION"
+          UPSTREAM_JSON=$(curl --retry 3 --retry-delay 5 -sf \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            https://api.github.com/repos/Kikobeats/free-email-domains/releases/latest)
+          VERSION=$(echo "$UPSTREAM_JSON" | jq -r '.tag_name // ""' | sed 's/^v//')
+          SOURCE="upstream releases/latest"
         fi
+
+        if [ -z "$VERSION" ] || [ "$VERSION" = "null" ]; then
+          echo "::error::Could not determine version (source: $SOURCE)"
+          exit 1
+        fi
+
+        if ! [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+(-(rc|beta|alpha)[0-9]*)?$ ]]; then
+          echo "::error::Version '$VERSION' (from $SOURCE) is not a valid semver-ish tag"
+          exit 1
+        fi
+
         echo "VERSION=$VERSION" >> $GITHUB_ENV
         echo "version=$VERSION" >> $GITHUB_OUTPUT
-        echo "Release version: $VERSION"
+        echo "Release version: $VERSION (from $SOURCE)"
+
+    - name: Check if version is already on Maven Central
+      run: |
+        set -euo pipefail
+        URL="https://repo1.maven.org/maven2/com/henricook/free-email-domains-java/${VERSION}/free-email-domains-java-${VERSION}.pom"
+        HTTP_CODE=$(curl --retry 3 --retry-delay 5 -s -o /dev/null -w "%{http_code}" "$URL")
+        case "$HTTP_CODE" in
+          200)
+            echo "::notice::Version ${VERSION} already on Maven Central — deploy step will be skipped"
+            echo "PUBLISHED_ON_CENTRAL=true" >> $GITHUB_ENV
+            ;;
+          404)
+            echo "Version ${VERSION} not yet on Maven Central — will publish"
+            echo "PUBLISHED_ON_CENTRAL=false" >> $GITHUB_ENV
+            ;;
+          *)
+            echo "::error::Unexpected HTTP $HTTP_CODE from Maven Central — refusing to proceed"
+            exit 1
+            ;;
+        esac
 
     - name: Update version in pom.xml
       run: |
-        mvn versions:set -DnewVersion=${{ env.VERSION }}
+        mvn versions:set -DnewVersion="${VERSION}"
         mvn versions:commit
 
     - name: Import GPG key
@@ -72,6 +113,7 @@ jobs:
         MAVEN_GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
 
     - name: Deploy to Maven Central
+      if: env.PUBLISHED_ON_CENTRAL == 'false'
       run: mvn deploy -Prelease -DskipTests
       env:
         MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
@@ -80,53 +122,143 @@ jobs:
 
     - name: Verify artifacts exist
       run: |
-        echo "Verifying that all required artifacts were generated..."
-        ARTIFACTS=(
-          "target/free-email-domains-java-${{ steps.version.outputs.version }}.jar"
-          "target/free-email-domains-java-${{ steps.version.outputs.version }}-sources.jar"
-          "target/free-email-domains-java-${{ steps.version.outputs.version }}-javadoc.jar"
-        )
-
-        for artifact in "${ARTIFACTS[@]}"; do
-          if [ ! -f "$artifact" ]; then
-            echo "Error: Required artifact not found: $artifact"
+        set -euo pipefail
+        echo "Verifying generated artifacts..."
+        for suffix in '.jar' '-sources.jar' '-javadoc.jar'; do
+          path="target/free-email-domains-java-${VERSION}${suffix}"
+          if [ ! -f "$path" ]; then
+            echo "::error::Required artifact not found: $path"
             exit 1
-          else
-            echo "✓ Found: $artifact ($(du -h "$artifact" | cut -f1))"
           fi
+          echo "✓ $path ($(du -h "$path" | cut -f1))"
         done
-        echo "All artifacts verified successfully"
+
+    - name: Generate release notes
+      run: |
+        set -euo pipefail
+        PREV_TAG=$(git tag --list 'v*' --sort=-v:refname | grep -v "^v${VERSION}$" | head -n 1 || true)
+        if [ -n "$PREV_TAG" ] && git cat-file -e "$PREV_TAG:src/main/resources/domains.json" 2>/dev/null; then
+          git show "$PREV_TAG:src/main/resources/domains.json" > /tmp/old-domains.json
+          echo "Diffing against previous tag: $PREV_TAG"
+        else
+          echo '[]' > /tmp/old-domains.json
+          PREV_TAG=""
+          echo "No previous tag with domains.json — treating as initial release"
+        fi
+
+        ADDED=$(jq -r --slurpfile new src/main/resources/domains.json --slurpfile old /tmp/old-domains.json -n '($new[0] - $old[0]) | sort | .[]')
+        REMOVED=$(jq -r --slurpfile new src/main/resources/domains.json --slurpfile old /tmp/old-domains.json -n '($old[0] - $new[0]) | sort | .[]')
+        ADDED_COUNT=$(jq --slurpfile new src/main/resources/domains.json --slurpfile old /tmp/old-domains.json -n '($new[0] - $old[0]) | length')
+        REMOVED_COUNT=$(jq --slurpfile new src/main/resources/domains.json --slurpfile old /tmp/old-domains.json -n '($old[0] - $new[0]) | length')
+        TOTAL=$(jq 'length' src/main/resources/domains.json)
+        NET=$((ADDED_COUNT - REMOVED_COUNT))
+        if [ "$NET" -gt 0 ]; then NET_DISPLAY="+${NET}"; else NET_DISPLAY="${NET}"; fi
+
+        render_section() {
+          local title="$1" count="$2" content="$3"
+          [ "$count" -eq 0 ] && return
+          local max=100
+          echo ""
+          if [ "$count" -le "$max" ]; then
+            echo "<details><summary>${title} (${count})</summary>"
+            echo ""
+            echo '```'
+            printf '%s\n' "$content"
+            echo '```'
+            echo ""
+            echo "</details>"
+          else
+            echo "<details><summary>${title} (showing first ${max} of ${count})</summary>"
+            echo ""
+            echo '```'
+            printf '%s\n' "$content" | head -n "$max"
+            echo '```'
+            echo ""
+            echo "</details>"
+          fi
+        }
+
+        {
+          echo "## Release v${VERSION}"
+          echo ""
+          echo "Synced with upstream [Kikobeats/free-email-domains v${VERSION}](https://github.com/Kikobeats/free-email-domains/releases/tag/v${VERSION})."
+          echo ""
+          echo "### Domain changes"
+          if [ -n "$PREV_TAG" ]; then
+            echo "Compared to [${PREV_TAG}](https://github.com/${{ github.repository }}/releases/tag/${PREV_TAG}):"
+          else
+            echo "Initial release:"
+          fi
+          echo ""
+          echo "- **Total domains**: ${TOTAL}"
+          echo "- **Added**: ${ADDED_COUNT}"
+          echo "- **Removed**: ${REMOVED_COUNT}"
+          echo "- **Net change**: ${NET_DISPLAY}"
+          render_section "Added domains" "$ADDED_COUNT" "$ADDED"
+          render_section "Removed domains" "$REMOVED_COUNT" "$REMOVED"
+          echo ""
+          echo "### Maven Dependency"
+          echo '```xml'
+          echo "<dependency>"
+          echo "    <groupId>com.henricook</groupId>"
+          echo "    <artifactId>free-email-domains-java</artifactId>"
+          echo "    <version>${VERSION}</version>"
+          echo "</dependency>"
+          echo '```'
+          echo ""
+          echo "### Gradle Dependency"
+          echo '```groovy'
+          echo "implementation 'com.henricook:free-email-domains-java:${VERSION}'"
+          echo '```'
+          echo ""
+          echo "_It may take up to 2 hours for the release to be available on Maven Central._"
+        } > RELEASE_NOTES.md
+
+        echo "Generated release notes:"
+        echo "----------------------------------------"
+        cat RELEASE_NOTES.md
+        echo "----------------------------------------"
 
     - name: Create GitHub Release
       uses: softprops/action-gh-release@v2
       with:
         tag_name: v${{ steps.version.outputs.version }}
         name: Release v${{ steps.version.outputs.version }}
-        body: |
-          ## Release v${{ steps.version.outputs.version }}
-
-          ### Changes
-          - Updated free email domains list
-          - Synced with upstream [free-email-domains](https://github.com/Kikobeats/free-email-domains) v${{ steps.version.outputs.version }}
-
-          ### Maven Dependency
-          ```xml
-          <dependency>
-              <groupId>com.henricook</groupId>
-              <artifactId>free-email-domains-java</artifactId>
-              <version>${{ steps.version.outputs.version }}</version>
-          </dependency>
-          ```
-
-          ### Gradle Dependency
-          ```groovy
-          implementation 'com.henricook:free-email-domains-java:${{ steps.version.outputs.version }}'
-          ```
-
-          **Note:** It may take up to 2 hours for the release to be available on Maven Central.
+        body_path: RELEASE_NOTES.md
         draft: false
-        prerelease: ${{ contains(github.ref, 'rc') || contains(github.ref, 'beta') || contains(github.ref, 'alpha') }}
+        prerelease: ${{ contains(env.VERSION, '-rc') || contains(env.VERSION, '-beta') || contains(env.VERSION, '-alpha') }}
         files: |
           target/free-email-domains-java-${{ steps.version.outputs.version }}.jar
           target/free-email-domains-java-${{ steps.version.outputs.version }}-sources.jar
           target/free-email-domains-java-${{ steps.version.outputs.version }}-javadoc.jar
+
+    - name: Commit version bump to main
+      run: |
+        set -euo pipefail
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+        for attempt in 1 2 3; do
+          git fetch origin main
+          git checkout -B main origin/main
+          mvn versions:set -DnewVersion="${VERSION}" -q
+          mvn versions:commit -q
+
+          if git diff --quiet pom.xml; then
+            echo "pom.xml already at ${VERSION} on main — nothing to commit"
+            exit 0
+          fi
+
+          git add pom.xml
+          git commit -m "chore: bump version to ${VERSION}"
+
+          if git push origin main; then
+            echo "Pushed version bump on attempt ${attempt}"
+            exit 0
+          fi
+
+          echo "::warning::Push attempt ${attempt} failed (main moved during release), retrying"
+          sleep $((attempt * 5))
+        done
+
+        echo "::warning::Could not push pom.xml bump to main after 3 attempts. Maven Central release succeeded; please bump pom.xml manually."

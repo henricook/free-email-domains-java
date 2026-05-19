@@ -1,0 +1,121 @@
+name: Check release parity with upstream
+
+on:
+  schedule:
+    # Daily at 06:00 UTC — 4h after the weekly sync's window, before any working day starts
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: check-release-parity
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+
+    steps:
+    - name: Fetch upstream latest release
+      id: upstream
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        set -euo pipefail
+        TAG=$(curl --retry 3 --retry-delay 5 -sf \
+          -H "Authorization: Bearer $GH_TOKEN" \
+          https://api.github.com/repos/Kikobeats/free-email-domains/releases/latest \
+          | jq -r '.tag_name // ""')
+        VERSION="${TAG#v}"
+        if [ -z "$VERSION" ] || [ "$VERSION" = "null" ]; then
+          echo "::error::Failed to fetch upstream latest release tag"
+          exit 1
+        fi
+        if ! [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+(-(rc|beta|alpha)[0-9]*)?$ ]]; then
+          echo "::error::Upstream version '$VERSION' is not a valid semver-ish tag"
+          exit 1
+        fi
+        echo "Upstream latest: $VERSION"
+        echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+    - name: Fetch our latest on Maven Central
+      id: central
+      run: |
+        set -euo pipefail
+        METADATA=$(curl --retry 3 --retry-delay 5 -sf \
+          https://repo1.maven.org/maven2/com/henricook/free-email-domains-java/maven-metadata.xml)
+        VERSION=$(echo "$METADATA" | sed -n 's:.*<release>\(.*\)</release>.*:\1:p')
+        if [ -z "$VERSION" ]; then
+          echo "::warning::No <release> in Maven Central metadata, falling back to <latest>"
+          VERSION=$(echo "$METADATA" | sed -n 's:.*<latest>\(.*\)</latest>.*:\1:p')
+        fi
+        if [ -z "$VERSION" ]; then
+          echo "::error::Failed to parse Maven Central version"
+          exit 1
+        fi
+        echo "Maven Central latest: $VERSION"
+        echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+    - name: Compare and report
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        UPSTREAM: ${{ steps.upstream.outputs.version }}
+        OURS: ${{ steps.central.outputs.version }}
+        REPO: ${{ github.repository }}
+        ISSUE_TITLE: "Release parity drift: behind upstream"
+      run: |
+        set -euo pipefail
+        echo "Upstream:      v${UPSTREAM}"
+        echo "Maven Central: v${OURS}"
+
+        find_open_issue() {
+          gh issue list --repo "$REPO" --state open --json number,title \
+            | jq -r --arg t "$ISSUE_TITLE" '[.[] | select(.title == $t)] | .[0].number // empty'
+        }
+
+        if [ "$UPSTREAM" = "$OURS" ]; then
+          echo "::notice::At parity with upstream (v${UPSTREAM})"
+          OPEN_ISSUE=$(find_open_issue)
+          if [ -n "$OPEN_ISSUE" ]; then
+            gh issue close "$OPEN_ISSUE" --repo "$REPO" \
+              --comment "Parity restored: we are now at v${OURS}, matching upstream."
+            echo "Closed parity-drift issue #${OPEN_ISSUE}"
+          fi
+          exit 0
+        fi
+
+        echo "::warning::Maven Central is behind upstream: ours=v${OURS}, upstream=v${UPSTREAM}"
+
+        BODY_FILE=$(mktemp)
+        {
+          echo "The published artifact on Maven Central is behind upstream."
+          echo ""
+          echo "- Upstream latest: [\`v${UPSTREAM}\`](https://github.com/Kikobeats/free-email-domains/releases/tag/v${UPSTREAM})"
+          echo "- Maven Central latest: [\`v${OURS}\`](https://central.sonatype.com/artifact/com.henricook/free-email-domains-java/${OURS})"
+          echo ""
+          echo "Likely causes:"
+          echo "- The weekly \`sync-upstream\` workflow failed to run or merge."
+          echo "- The \`release\` workflow failed mid-way (check its [recent runs](https://github.com/${REPO}/actions/workflows/release.yml))."
+          echo "- Upstream published a new tag without changing \`domains.json\` content, so sync skipped the release trigger."
+          echo ""
+          echo "To resolve, run [release](https://github.com/${REPO}/actions/workflows/release.yml) manually with \`version=${UPSTREAM}\`."
+          echo ""
+          echo "This issue will auto-close once parity is restored."
+        } > "$BODY_FILE"
+
+        OPEN_ISSUE=$(find_open_issue)
+        if [ -n "$OPEN_ISSUE" ]; then
+          gh issue comment "$OPEN_ISSUE" --repo "$REPO" --body-file "$BODY_FILE"
+          echo "Updated existing parity-drift issue #${OPEN_ISSUE}"
+        else
+          gh issue create --repo "$REPO" \
+            --title "$ISSUE_TITLE" \
+            --body-file "$BODY_FILE" \
+            --label "parity-drift" 2>/dev/null \
+          || gh issue create --repo "$REPO" \
+            --title "$ISSUE_TITLE" \
+            --body-file "$BODY_FILE"
+          echo "Created new parity-drift issue"
+        fi
