@@ -102,25 +102,13 @@ jobs:
     - name: Auto-merge PR if tests pass
       if: env.DOMAINS_CHANGED == 'true'
       run: |
-        # Get the PR number
         PR_NUMBER=$(gh pr list --head update-domains-${{ github.run_number }} --json number --jq '.[0].number')
-
-        if [ -n "$PR_NUMBER" ]; then
-          echo "Found PR #$PR_NUMBER, waiting for checks to complete..."
-
-          # Wait for checks to complete with timeout
-          if gh pr checks $PR_NUMBER --fail-after-seconds 300; then
-            echo "All checks passed, auto-merging PR #$PR_NUMBER"
-            gh pr merge $PR_NUMBER --merge --delete-branch
-            echo "PR #$PR_NUMBER auto-merged successfully"
-          else
-            echo "PR #$PR_NUMBER has failing checks or timed out, manual review required"
-            exit 1
-          fi
-        else
+        if [ -z "$PR_NUMBER" ]; then
           echo "Could not find PR for branch update-domains-${{ github.run_number }}"
           exit 1
         fi
+        echo "Merging PR #$PR_NUMBER (tests already passed in earlier step)"
+        gh pr merge $PR_NUMBER --merge --delete-branch
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
