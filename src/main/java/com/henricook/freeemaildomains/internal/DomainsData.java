@@ -9,14 +9,14 @@ import java.util.Set;
  * This class is automatically generated from domains.json.
  * Do not edit manually.
  *
- * Total domains: 10517
+ * Total domains: 10480
  */
 public final class DomainsData {
 
     public static final Set<String> DOMAINS;
 
     static {
-        Set<String> domains = new HashSet<>(10517);
+        Set<String> domains = new HashSet<>(10480);
         addBatch0(domains);
         addBatch1(domains);
         addBatch2(domains);
@@ -45,6 +45,7 @@ public final class DomainsData {
         domains.add("0clickemail.com");
         domains.add("0n0ff.net");
         domains.add("0nelce.com");
+        domains.add("0r1t60a.jejes.de");
         domains.add("0rg.fr");
         domains.add("0sg.net");
         domains.add("0v.ro");
@@ -57,17 +58,15 @@ public final class DomainsData {
         domains.add("1-tm.com");
         domains.add("10-minute-mail.com");
         domains.add("1000rebates.stream");
-        domains.add("100811.xyz");
         domains.add("100likers.com");
         domains.add("105kg.ru");
         domains.add("10dk.email");
         domains.add("10inbox.online");
-        domains.add("10kbatch.com");
         domains.add("10mail.com");
-        domains.add("10mail.info");
         domains.add("10mail.org");
         domains.add("10mail.tk");
         domains.add("10mail.xyz");
+        domains.add("10min.email");
         domains.add("10minemail.com");
         domains.add("10minmail.de");
         domains.add("10minut.com.pl");
@@ -94,8 +93,6 @@ public final class DomainsData {
         domains.add("10minutesmail.fr");
         domains.add("10minutmail.pl");
         domains.add("10x9.com");
-        domains.add("11066666.xyz");
-        domains.add("110666666.xyz");
         domains.add("11163.com");
         domains.add("11mail.com");
         domains.add("123-m.com");
@@ -115,7 +112,6 @@ public final class DomainsData {
         domains.add("12minutemail.net");
         domains.add("12storage.com");
         domains.add("1337.care");
-        domains.add("13461233.xyz");
         domains.add("139.com");
         domains.add("140unichars.com");
         domains.add("147.cl");
@@ -123,7 +119,6 @@ public final class DomainsData {
         domains.add("14n.co.uk");
         domains.add("150mail.com");
         domains.add("150ml.com");
-        domains.add("15768.xyz");
         domains.add("15963.fr.nf");
         domains.add("15meg4free.com");
         domains.add("15qm.com");
@@ -134,8 +129,6 @@ public final class DomainsData {
         domains.add("189.cn");
         domains.add("189.email");
         domains.add("191mariobet.com");
-        domains.add("1av1.lx1qzz.qzz.io");
-        domains.add("1av2.lx1qzz.qzz.io");
         domains.add("1blackmoon.com");
         domains.add("1ce.us");
         domains.add("1chuan.com");
@@ -166,7 +159,6 @@ public final class DomainsData {
         domains.add("1t-mail.com");
         domains.add("1to1mail.org");
         domains.add("1trick.net");
-        domains.add("1u.sdfe.app");
         domains.add("1under.com");
         domains.add("1usemail.com");
         domains.add("1webave.com");
@@ -175,9 +167,7 @@ public final class DomainsData {
         domains.add("1xp.fr");
         domains.add("1zhuan.com");
         domains.add("2-mail.com");
-        domains.add("20031227.de5.net");
         domains.add("2012-2016.ru");
-        domains.add("20220108.xyz");
         domains.add("20email.eu");
         domains.add("20email.it");
         domains.add("20mail.eu");
@@ -190,8 +180,6 @@ public final class DomainsData {
         domains.add("212.com");
         domains.add("2120001.net");
         domains.add("21cn.com");
-        domains.add("21sad.xyz");
-        domains.add("21zys.dpdns.org");
         domains.add("2200freefonts.com");
         domains.add("247web.net");
         domains.add("24faw.com");
@@ -200,10 +188,15 @@ public final class DomainsData {
         domains.add("24hourmail.com");
         domains.add("24hourmail.net");
         domains.add("24mail.top");
+        domains.add("25kcreditveo3.io.vn");
+        domains.add("25kg2gveo3.io.vn");
+        domains.add("25kveo.io.vn");
+        domains.add("25kvideo.io.vn");
         domains.add("25u.com");
         domains.add("2911.net");
         domains.add("2980.com");
         domains.add("2anom.com");
+        domains.add("2bd.net");
         domains.add("2bmail.co.uk");
         domains.add("2chmail.net");
         domains.add("2d2i.com");
@@ -225,7 +218,6 @@ public final class DomainsData {
         domains.add("3126.com");
         domains.add("3202.com");
         domains.add("321media.com");
-        domains.add("33221101.xyz");
         domains.add("33mail.com");
         domains.add("36ru.com");
         domains.add("37.com");
@@ -243,7 +235,6 @@ public final class DomainsData {
         domains.add("3mail.ga");
         domains.add("3trtretgfrfe.tk");
         domains.add("3xl.net");
-        domains.add("3yfe.cn");
         domains.add("4-n.us");
         domains.add("4057.com");
         domains.add("418.dk");
@@ -262,6 +253,7 @@ public final class DomainsData {
         domains.add("4mg.com");
         domains.add("4newyork.com");
         domains.add("4nextmail.com");
+        domains.add("4nly.com");
         domains.add("4nmv.ru");
         domains.add("4pu.com");
         domains.add("4save.net");
@@ -274,8 +266,6 @@ public final class DomainsData {
         domains.add("50set.ru");
         domains.add("52mails.com");
         domains.add("55hosting.net");
-        domains.add("579199.xyz");
-        domains.add("59w7ic.bbroot.com");
         domains.add("5ghgfhfghfgh.tk");
         domains.add("5gramos.com");
         domains.add("5july.org");
@@ -288,7 +278,6 @@ public final class DomainsData {
         domains.add("5x25.com");
         domains.add("5ymail.com");
         domains.add("60minutemail.com");
-        domains.add("668mail.com");
         domains.add("672643.net");
         domains.add("675hosting.com");
         domains.add("675hosting.net");
@@ -296,7 +285,6 @@ public final class DomainsData {
         domains.add("681mail.com");
         domains.add("6hjgjhgkilkj.tk");
         domains.add("6ip.us");
-        domains.add("6k3so4.cn.mt");
         domains.add("6mail.cf");
         domains.add("6mail.ga");
         domains.add("6mail.ml");
@@ -322,15 +310,15 @@ public final class DomainsData {
         domains.add("8mail.cf");
         domains.add("8mail.ga");
         domains.add("8mail.ml");
+        domains.add("8nzqulf.jejes.de");
         domains.add("8w3q0zls.mailosaur.net");
-        domains.add("908209381.shop");
+        domains.add("97n5zta.jejes.de");
         domains.add("97rock.com");
         domains.add("99.com");
-        domains.add("997993.xyz");
         domains.add("99cows.com");
         domains.add("99experts.com");
         domains.add("99mail.us");
-        domains.add("9l.sdfe.app");
+        domains.add("9ho4bwb.jejes.de");
         domains.add("9mail.cf");
         domains.add("9me.site");
         domains.add("9mot.ru");
@@ -338,20 +326,17 @@ public final class DomainsData {
         domains.add("9q.ro");
         domains.add("a-bc.net");
         domains.add("a-germandu.de");
-        domains.add("a.bdbdjx.top");
-        domains.add("a0.engineer");
-        domains.add("a0.jesys.net");
         domains.add("a2rp.cegll.site");
         domains.add("a45.in");
+        domains.add("a4lrnkb.jejes.de");
         domains.add("a5nr.cegll.site");
+        domains.add("a76925079.nyc.mn");
         domains.add("a7996.com");
         domains.add("a7k2.cegll.site");
-        domains.add("a9bt.cegll.site");
         domains.add("aa5zy64.com");
         domains.add("aaamail.zzn.com");
         domains.add("aabkmail.com");
         domains.add("aachendate.de");
-        domains.add("aafr.waroengmail.com");
         domains.add("aakk.link");
         domains.add("aakkmail.com");
         domains.add("aamail.net");
@@ -408,14 +393,12 @@ public final class DomainsData {
         domains.add("acdcfan.com");
         domains.add("ace-of-base.com");
         domains.add("acedby.com");
-        domains.add("acgames.cc");
-        domains.add("acgfun.eu.org");
         domains.add("achievementwe.us");
         domains.add("achievewe.us");
+        domains.add("acm.ono.biz.id");
         domains.add("acmemail.net");
         domains.add("acninc.net");
         domains.add("acornwe.us");
-        domains.add("acoustour.com");
         domains.add("acrossgracealley.com");
         domains.add("acrylicwe.us");
         domains.add("actarus.infos.st");
@@ -426,6 +409,7 @@ public final class DomainsData {
         domains.add("acuitywe.us");
         domains.add("acumenwe.us");
         domains.add("adadad.uk");
+        domains.add("adagame.work");
         domains.add("adam.com.au");
         domains.add("adaptivewe.us");
         domains.add("adaptwe.us");
@@ -444,6 +428,7 @@ public final class DomainsData {
         domains.add("adios.net");
         domains.add("adiq.eu");
         domains.add("aditus.info");
+        domains.add("admin.thanhori.click");
         domains.add("admiralwe.us");
         domains.add("adn3t.com");
         domains.add("ado888.biz");
@@ -491,8 +476,6 @@ public final class DomainsData {
         domains.add("africamail.com");
         domains.add("africamel.net");
         domains.add("afrobacon.com");
-        domains.add("aftely.dpdns.org");
-        domains.add("aftely.eu.cc");
         domains.add("aftercorporation.com");
         domains.add("afterhourswe.us");
         domains.add("afternea.sbs");
@@ -500,6 +483,7 @@ public final class DomainsData {
         domains.add("ag.us.to");
         domains.add("agedmail.com");
         domains.add("agendawe.us");
+        domains.add("agente4.com");
         domains.add("agger.ro");
         domains.add("agilewe.us");
         domains.add("agiuse.com");
@@ -513,8 +497,8 @@ public final class DomainsData {
         domains.add("ahk.jp");
         domains.add("ahmedkhlef.com");
         domains.add("ahvin.com");
-        domains.add("ai.2026157.xyz");
         domains.add("aichi.com");
+        domains.add("aiclit.asia");
         domains.add("aidesign.work.gd");
         domains.add("aikunkun.com");
         domains.add("ailicke.com");
@@ -528,11 +512,12 @@ public final class DomainsData {
         domains.add("airmailbox.website");
         domains.add("airpost.net");
         domains.add("airsworld.net");
+        domains.add("aisubpro.click");
+        domains.add("aisubstore.click");
         domains.add("aiworldx.com");
         domains.add("aixnv.com");
         domains.add("ajacied.com");
         domains.add("ajaxapp.net");
-        domains.add("ajksdljaskldasd.cc.cd");
         domains.add("ak47.hu");
         domains.add("akapost.com");
         domains.add("akbip.com");
@@ -543,7 +528,6 @@ public final class DomainsData {
         domains.add("aknet.kg");
         domains.add("akses.email");
         domains.add("akugu.com");
-        domains.add("akunkuat.com");
         domains.add("akunlama.com");
         domains.add("al-qaeda.us");
         domains.add("albawaba.com");
@@ -553,6 +537,7 @@ public final class DomainsData {
         domains.add("aleh.de");
         domains.add("alex4all.com");
         domains.add("alexandria.cc");
+        domains.add("alf5.com");
         domains.add("alfaceti.com");
         domains.add("algarr.com");
         domains.add("algeria.com");
@@ -564,6 +549,7 @@ public final class DomainsData {
         domains.add("alice.it");
         domains.add("alienware13.com");
         domains.add("aligamel.com");
+        domains.add("alightmotion.id");
         domains.add("aligroup.uk");
         domains.add("alilot.com");
         domains.add("alina-schiesser.ch");
@@ -606,6 +592,7 @@ public final class DomainsData {
         domains.add("almatips.com");
         domains.add("almiswelfare.org");
         domains.add("almondwe.us");
+        domains.add("alohim.web.id");
         domains.add("alosp.com");
         domains.add("alpenjodel.de");
         domains.add("alph.wtf");
@@ -677,19 +664,19 @@ public final class DomainsData {
         domains.add("anappthat.com");
         domains.add("anarac.com");
         domains.add("anawebs.com");
-        domains.add("andrea2512.online");
         domains.add("andreihusanu.ro");
         domains.add("andthen.us");
         domains.add("andylau.net");
         domains.add("anfmail.com");
         domains.add("angelfire.com");
         domains.add("angelic.com");
-        domains.add("angelina.syrf109475.top");
+        domains.add("anhiqojkaq1.abrdns.com");
         domains.add("animail.net");
         domains.add("animalhouse.com");
         domains.add("animalwoman.net");
         domains.add("animateany.com");
         domains.add("animatimg.com");
+        domains.add("animehentai.ink");
         domains.add("animesos.com");
         domains.add("aniross.com");
         domains.add("anit.ro");
@@ -723,8 +710,9 @@ public final class DomainsData {
         domains.add("antispam24.de");
         domains.add("antispammail.de");
         domains.add("antongijsen.com");
+        domains.add("antttool.us");
         domains.add("antwerpen.com");
-        domains.add("anxv.top");
+        domains.add("anversa.com.co");
         domains.add("any.pink");
         domains.add("anyalias.com");
         domains.add("anymoment.com");
@@ -734,11 +722,9 @@ public final class DomainsData {
         domains.add("aol.com");
         domains.add("aon.at");
         domains.add("ape-tech.run.place");
-        domains.add("apedesigns.jo3.org");
         domains.add("apexmail.com");
         domains.add("apfelkorps.de");
         domains.add("aphlog.com");
-        domains.add("api89891.eu.cc");
         domains.add("apkmd.com");
         domains.add("aplix.id");
         domains.add("apmail.com");
@@ -752,11 +738,12 @@ public final class DomainsData {
         domains.add("apple.edu.pl");
         domains.add("appmail.uk");
         domains.add("appraiser.net");
+        domains.add("appremiums.pro");
         domains.add("approvers.net");
         domains.add("apps.dj");
         domains.add("appzily.com");
         domains.add("aprte.com");
-        domains.add("aq11.tempdukviet.click");
+        domains.add("aq49.tempdukviet.click");
         domains.add("aquas.live");
         domains.add("arabia.com");
         domains.add("arabtop.net");
@@ -772,17 +759,16 @@ public final class DomainsData {
         domains.add("argentina.com");
         domains.add("ariaz.jetzt");
         domains.add("aristotle.org");
-        domains.add("arksy12.eu.cc");
         domains.add("army.net");
         domains.add("armyspy.com");
         domains.add("arnet.com.ar");
         domains.add("aron.us");
         domains.add("arroisijewellery.com");
-        domains.add("arrowtuner.bbroot.com");
         domains.add("art-en-ligne.pro");
         domains.add("artlover.com");
         domains.add("artlover.com.au");
         domains.add("artman-conception.com");
+        domains.add("arugy.com");
         domains.add("arur01.tk");
         domains.add("arurgitu.gq");
         domains.add("arvato-community.de");
@@ -792,13 +778,12 @@ public final class DomainsData {
         domains.add("asaption.com");
         domains.add("aschenbrandt.net");
         domains.add("asciibinder.net");
-        domains.add("asdahjsdasd213124.eu.cc");
         domains.add("asdasd.nl");
         domains.add("asdasd.ru");
-        domains.add("asdedcccc.eu.cc");
         domains.add("asean-mail.com");
         domains.add("asheville.com");
         domains.add("ashleyandrew.com");
+        domains.add("asia-hq.jo3.org");
         domains.add("asia-links.com");
         domains.add("asia-mail.com");
         domains.add("asiafind.com");
@@ -815,7 +800,6 @@ public final class DomainsData {
         domains.add("assamesemail.com");
         domains.add("assurmail.net");
         domains.add("astonut.tk");
-        domains.add("astralis.cn");
         domains.add("astroboymail.com");
         domains.add("astroempires.info");
         domains.add("astrolover.com");
@@ -845,6 +829,7 @@ public final class DomainsData {
         domains.add("au1688x.us");
         domains.add("aubady.com");
         domains.add("auctioneer.net");
+        domains.add("aufstudio.com");
         domains.add("augmentationtechnology.com");
         domains.add("aula.edu.pl");
         domains.add("auone-net.jp");
@@ -897,25 +882,21 @@ public final class DomainsData {
         domains.add("azulejoslowcost.es");
         domains.add("azuretechtalk.net");
         domains.add("azzancoffee.com");
-        domains.add("b.729406.xyz");
         domains.add("b1of96u.com");
         domains.add("b2bx.net");
         domains.add("b2cmail.de");
         domains.add("b3fw.cegll.site");
         domains.add("b4nv.cegll.site");
-        domains.add("b7rd.cegll.site");
         domains.add("b7s.ru");
-        domains.add("b8tw.cegll.site");
         domains.add("babyeat.food");
-        domains.add("babyonboard.online");
         domains.add("bachelorboy.com");
         domains.add("bachelorgal.com");
-        domains.add("back89635.eu.cc");
         domains.add("backilnge.com");
         domains.add("backpackers.com");
         domains.add("backstreet-boys.com");
         domains.add("backstreetboysclub.com");
         domains.add("bacteroidmail.com");
+        domains.add("bad-o.men");
         domains.add("badgerhole.com");
         domains.add("badgerland.eu");
         domains.add("badoop.com");
@@ -927,9 +908,10 @@ public final class DomainsData {
         domains.add("balawo.com");
         domains.add("baldmama.de");
         domains.add("baldpapa.de");
-        domains.add("bali.grok-mail.co");
         domains.add("ballyfinance.com");
+        domains.add("banana.linkpc.net");
         domains.add("bangban.uk");
+        domains.add("bangdieukhien.net");
         domains.add("bangkok.com");
         domains.add("bangkok2000.com");
         domains.add("banhang14.com");
@@ -940,6 +922,7 @@ public final class DomainsData {
         domains.add("bannertown.net");
         domains.add("baptistmail.com");
         domains.add("baptized.com");
+        domains.add("bapu.kaptencpl.com");
         domains.add("barcelona.com");
         domains.add("bareed.ws");
         domains.add("barooko.com");
@@ -948,14 +931,17 @@ public final class DomainsData {
         domains.add("bartender.net");
         domains.add("baseballmail.com");
         domains.add("basepathgrid.com");
+        domains.add("baserda.net");
         domains.add("basketballmail.com");
         domains.add("basscode.org");
         domains.add("batuta.net");
         domains.add("baudoinconsulting.com");
         domains.add("bauwerke-online.com");
         domains.add("baybabes.com");
+        domains.add("baybumutan.shop");
         domains.add("bazaaboom.com");
         domains.add("bbbbyyzz.info");
+        domains.add("bbcgmail.com");
         domains.add("bbhost.us");
         domains.add("bbiq.jp");
         domains.add("bbitf.com");
@@ -967,7 +953,6 @@ public final class DomainsData {
         domains.add("bcaoo.com");
         domains.add("bcast.ws");
         domains.add("bcb.ro");
-        domains.add("bcbc.cc.cd");
         domains.add("bccto.me");
         domains.add("bcm.edu.pl");
         domains.add("bcooq.com");
@@ -982,15 +967,12 @@ public final class DomainsData {
         domains.add("beddly.com");
         domains.add("beeebank.com");
         domains.add("beefmilk.com");
-        domains.add("beeinbox.com");
-        domains.add("beeinbox.edu.pl");
         domains.add("beelsil.com");
         domains.add("beenhad.com");
         domains.add("beep.ru");
         domains.add("beer.com");
         domains.add("beethoven.com");
         domains.add("begemail.com");
-        domains.add("beibei.digital");
         domains.add("belamail.org");
         domains.add("belettersmail.com");
         domains.add("belgianairways.com");
@@ -1001,6 +983,7 @@ public final class DomainsData {
         domains.add("belljonestax.com");
         domains.add("bellsouth.net");
         domains.add("beluckygame.com");
+        domains.add("beni.kaptencpl.com");
         domains.add("benipaula.org");
         domains.add("benphim.com");
         domains.add("benphim.net");
@@ -1013,6 +996,7 @@ public final class DomainsData {
         domains.add("berlin.de");
         domains.add("berlinexpo.de");
         domains.add("berwie.com");
+        domains.add("bespokehaircare.co.uk");
         domains.add("best-hosting.biz");
         domains.add("best-john-boats.com");
         domains.add("best-temp-mail.com");
@@ -1022,7 +1006,6 @@ public final class DomainsData {
         domains.add("bestmail.us");
         domains.add("bestoption25.club");
         domains.add("bestparadize.com");
-        domains.add("bestrui.qzz.io");
         domains.add("bestsoundeffects.com");
         domains.add("besttempmail.com");
         domains.add("beta.edu.pl");
@@ -1032,21 +1015,16 @@ public final class DomainsData {
         domains.add("betteryoutime.com");
         domains.add("bezill.com");
         domains.add("bflcafe.com");
-    }
-
-    private static void addBatch1(Set<String> domains) {
         domains.add("bgtmail.com");
         domains.add("bgx.ro");
         domains.add("bharatmail.com");
         domains.add("bheps.com");
-        domains.add("bhrjcm.shop");
         domains.add("bhuxp.org");
         domains.add("bidourlnks.com");
         domains.add("big1.us");
         domains.add("bigassweb.com");
         domains.add("bigblue.net.au");
         domains.add("bigboab.com");
-        domains.add("bigboy.click");
         domains.add("bigfoot.com");
         domains.add("bigfoot.de");
         domains.add("bigger.com");
@@ -1054,6 +1032,9 @@ public final class DomainsData {
         domains.add("biglobe.ne.jp");
         domains.add("bigmailbox.com");
         domains.add("bigmir.net");
+    }
+
+    private static void addBatch1(Set<String> domains) {
         domains.add("bigonla.com");
         domains.add("bigpond.au");
         domains.add("bigpond.com");
@@ -1084,6 +1065,7 @@ public final class DomainsData {
         domains.add("binsh.kro.kr");
         domains.add("bio-muesli.info");
         domains.add("bio-muesli.net");
+        domains.add("biofutureemi.space");
         domains.add("biojuris.com");
         domains.add("bione.co");
         domains.add("bipochub.com");
@@ -1119,6 +1101,7 @@ public final class DomainsData {
         domains.add("blnkt.net");
         domains.add("block521.com");
         domains.add("blockfilter.com");
+        domains.add("blogerspace.com");
         domains.add("blogmyway.org");
         domains.add("blogos.net");
         domains.add("blogspam.ro");
@@ -1131,7 +1114,6 @@ public final class DomainsData {
         domains.add("bluemail.ch");
         domains.add("bluemail.dk");
         domains.add("bluesfan.com");
-        domains.add("blueshieldpharma.com");
         domains.add("bluewerks.com");
         domains.add("bluewin.ch");
         domains.add("blueyonder.co.uk");
@@ -1172,6 +1154,7 @@ public final class DomainsData {
         domains.add("borged.net");
         domains.add("borged.org");
         domains.add("bornnaked.com");
+        domains.add("boss.paijishu.cn");
         domains.add("bostonoffice.com");
         domains.add("bot.nu");
         domains.add("botgetlink.com");
@@ -1197,7 +1180,7 @@ public final class DomainsData {
         domains.add("boxlet.store");
         domains.add("boxmach.com");
         domains.add("boxmail.lol");
-        domains.add("boxmus.com");
+        domains.add("boxmail1.com");
         domains.add("boxomail.live");
         domains.add("boxtemp.com.br");
         domains.add("boyaga.com");
@@ -1205,7 +1188,6 @@ public final class DomainsData {
         domains.add("bpotogo.com");
         domains.add("bptfp.net");
         domains.add("bradfordfans.com");
-        domains.add("brainleaked.com");
         domains.add("brand-app.biz");
         domains.add("brandallday.net");
         domains.add("brashbeat.online");
@@ -1227,13 +1209,12 @@ public final class DomainsData {
         domains.add("briggsmarcus.com");
         domains.add("bright.net");
         domains.add("britneyclub.com");
-        domains.add("brittneyda123.buzz");
         domains.add("brittonsign.com");
         domains.add("broadbandninja.com");
         domains.add("broadcast.net");
         domains.add("brokenvalve.com");
+        domains.add("broothi.com");
         domains.add("brusseler.com");
-        domains.add("bsb.cc.cd");
         domains.add("bscse.okcx.edu.rs");
         domains.add("bsdmail.com");
         domains.add("bseee.okcx.edu.rs");
@@ -1252,7 +1233,6 @@ public final class DomainsData {
         domains.add("btizet.pl");
         domains.add("btopenworld.co.uk");
         domains.add("btsblock.com");
-        domains.add("btzca8.nsmjj.cc.cd");
         domains.add("buccalmassage.ru");
         domains.add("budaya-tionghoa.com");
         domains.add("budayationghoa.com");
@@ -1304,8 +1284,8 @@ public final class DomainsData {
         domains.add("byespm.com");
         domains.add("byom.de");
         domains.add("bytedigi.com");
+        domains.add("byteforge.cfd");
         domains.add("c-eric.fr.nf");
-        domains.add("c.lgp888.xyz");
         domains.add("c1ph3r.xyz");
         domains.add("c1pz.cegll.site");
         domains.add("c2.hu");
@@ -1331,6 +1311,7 @@ public final class DomainsData {
         domains.add("cafesui.com");
         domains.add("caftee.com");
         domains.add("cairomail.com");
+        domains.add("calehq.com");
         domains.add("calendar-server.bounces.google.com");
         domains.add("calendro.fr.nf");
         domains.add("calidifontain.be");
@@ -1366,6 +1347,7 @@ public final class DomainsData {
         domains.add("capcutpro.click");
         domains.add("capitalistdilemma.com");
         domains.add("captus.cyou");
+        domains.add("caqcut.top");
         domains.add("car101.pro");
         domains.add("caramail.com");
         domains.add("carbtc.net");
@@ -1402,7 +1384,6 @@ public final class DomainsData {
         domains.add("ccmail.uk");
         domains.add("ccqu.top");
         domains.add("cctoolz.com");
-        domains.add("cd-mail.ccwu.cc");
         domains.add("cd2.com");
         domains.add("cdfaq.com");
         domains.add("cdnmia.com");
@@ -1411,6 +1392,8 @@ public final class DomainsData {
         domains.add("ceed.se");
         domains.add("cegil.id");
         domains.add("cek.pm");
+        domains.add("cekpesan.id");
+        domains.add("celebnewsss.com");
         domains.add("celineclub.com");
         domains.add("cellurl.com");
         domains.add("celtic.com");
@@ -1426,7 +1409,6 @@ public final class DomainsData {
         domains.add("centrum.cz");
         domains.add("centrum.sk");
         domains.add("centurytel.net");
-        domains.add("ceo.paijishu.com");
         domains.add("certexx.fr.nf");
         domains.add("certificenter.com");
         domains.add("certifiedmail.com");
@@ -1463,23 +1445,23 @@ public final class DomainsData {
         domains.add("chatworkstation.com");
         domains.add("chaublog.com");
         domains.add("chauhanweb.com");
+        domains.add("chauhuy.io.vn");
         domains.add("cheaphub.net");
         domains.add("cheatmail.de");
         domains.add("chechnya.conf.work");
         domains.add("check.com");
         domains.add("check1check.com");
+        domains.add("checkotpmail.com");
         domains.add("cheerful.com");
         domains.add("chef.net");
         domains.add("chefalicious.com");
         domains.add("chek.com");
         domains.add("chello.nl");
         domains.add("chemist.com");
-        domains.add("chen-hai.sryze.cc");
         domains.add("chenbot.email");
         domains.add("chequemail.com");
         domains.add("chessgameland.com");
         domains.add("chessgamingworld.com");
-        domains.add("chet.ccwu.cc");
         domains.add("chewydonut.com");
         domains.add("cheyenneweb.com");
         domains.add("chez.com");
@@ -1489,6 +1471,7 @@ public final class DomainsData {
         domains.add("chielo.com");
         domains.add("childsavetrust.org");
         domains.add("chilkat.com");
+        domains.add("chilloliandfii.space");
         domains.add("china.com");
         domains.add("china.net.vg");
         domains.add("chinamail.com");
@@ -1547,8 +1530,8 @@ public final class DomainsData {
         domains.add("cityoflondon.org");
         domains.add("civikli.com");
         domains.add("civx.org");
-        domains.add("cj960523.cn.mt");
         domains.add("ckaazaza.tk");
+        domains.add("ckdwrn5.jejes.de");
         domains.add("cketrust.org");
         domains.add("ckiso.com");
         domains.add("ckvn.edu.vn");
@@ -1579,7 +1562,6 @@ public final class DomainsData {
         domains.add("close2you.net");
         domains.add("cloud-mail.top");
         domains.add("cloud-temp.com");
-        domains.add("cloud.hllab.bbroot.com");
         domains.add("cloudflare.gay");
         domains.add("cloudgen.world");
         domains.add("cloudinbox.top");
@@ -1604,7 +1586,6 @@ public final class DomainsData {
         domains.add("cmdkl.com");
         domains.add("cmhvzylmfc.com");
         domains.add("cmpmail.com");
-        domains.add("cmuk.edu.kg");
         domains.add("cnamed.com");
         domains.add("cndps.com");
         domains.add("cneemail.com");
@@ -1634,8 +1615,6 @@ public final class DomainsData {
         domains.add("coffeeazzan.com");
         domains.add("coffeejadore.com");
         domains.add("coffeetimer24.com");
-        domains.add("coftens.asia");
-        domains.add("coftensbfq.asia");
         domains.add("cogil.id");
         domains.add("coid.biz");
         domains.add("coieo.com");
@@ -1677,10 +1656,11 @@ public final class DomainsData {
         domains.add("conexcol.com");
         domains.add("conf.work");
         domains.add("confmin.com");
+        domains.add("congnguyen.io.vn");
         domains.add("conk.com");
         domains.add("connect4free.net");
         domains.add("connectbox.com");
-        domains.add("connexy.xyz");
+        domains.add("connected.linkpc.net");
         domains.add("connho.com");
         domains.add("connho.net");
         domains.add("consultant.com");
@@ -1701,12 +1681,14 @@ public final class DomainsData {
         domains.add("coolgoose.ca");
         domains.add("coolgoose.com");
         domains.add("coolimpool.org");
+        domains.add("cooljump.org");
         domains.add("coolkiwi.com");
         domains.add("coollist.com");
         domains.add("coolmail.com");
         domains.add("coolmail.net");
         domains.add("coolsend.com");
         domains.add("coolsite.net");
+        domains.add("coolsynchideo.tech");
         domains.add("cooooool.com");
         domains.add("cooperation.net");
         domains.add("cooperationtogo.net");
@@ -1723,6 +1705,7 @@ public final class DomainsData {
         domains.add("cosdas.com");
         domains.add("cosmorph.com");
         domains.add("cosoinan.com");
+        domains.add("cosycritters.co.uk");
         domains.add("cotas.net");
         domains.add("cotasen.com");
         domains.add("cotigz.com");
@@ -1734,7 +1717,6 @@ public final class DomainsData {
         domains.add("cox.net");
         domains.add("coxinet.net");
         domains.add("coza.ro");
-        domains.add("cpav3.com");
         domains.add("cpc.cx");
         domains.add("cracker.hu");
         domains.add("crankhole.com");
@@ -1745,6 +1727,7 @@ public final class DomainsData {
         domains.add("crazymailing.com");
         domains.add("crazysexycool.com");
         domains.add("cream.pink");
+        domains.add("creative.publicvm.com");
         domains.add("credit-loans.xyz");
         domains.add("crepeau12.com");
         domains.add("creteanu.com");
@@ -1759,7 +1742,6 @@ public final class DomainsData {
         domains.add("crossmailjet.com");
         domains.add("crossroadsmail.com");
         domains.add("crosswinds.net");
-        domains.add("crowdlify.hair");
         domains.add("crunchcompass.com");
         domains.add("crusthost.com");
         domains.add("crwmail.com");
@@ -1775,8 +1757,10 @@ public final class DomainsData {
         domains.add("ctmailing.us");
         domains.add("ctos.ch");
         domains.add("cu.cc");
+        domains.add("cuahangvppn.shop");
         domains.add("cubene.com");
         domains.add("cubiclink.com");
+        domains.add("cubicview.site");
         domains.add("cucadas.com");
         domains.add("cuemail.com");
         domains.add("cuendita.com");
@@ -1789,7 +1773,6 @@ public final class DomainsData {
         domains.add("curryworld.de");
         domains.add("curuth.com");
         domains.add("cust.in");
-        domains.add("custemail.xyz");
         domains.add("cute-girl.com");
         domains.add("cuteandcuddly.com");
         domains.add("cutefrogs.xyz");
@@ -1800,7 +1783,6 @@ public final class DomainsData {
         domains.add("cuvox.de");
         domains.add("cwetg.co.uk");
         domains.add("cww.de");
-        domains.add("cx.lsa1230.dpdns.org");
         domains.add("cxwet.com");
         domains.add("cyber-africa.net");
         domains.add("cyber-innovation.club");
@@ -1827,7 +1809,6 @@ public final class DomainsData {
         domains.add("cylab.org");
         domains.add("cynetcity.com");
         domains.add("cypi.fr");
-        domains.add("d.729406.xyz");
         domains.add("d1yun.com");
         domains.add("d2hv.cegll.site");
         domains.add("d3kx.cegll.site");
@@ -1856,6 +1837,7 @@ public final class DomainsData {
         domains.add("dangerous-minds.com");
         domains.add("dann.mywire.org");
         domains.add("dansegulvet.com");
+        domains.add("dantriviet.shop");
         domains.add("dao.pp.ua");
         domains.add("daouse.com");
         domains.add("dapurx.me");
@@ -1868,9 +1850,12 @@ public final class DomainsData {
         domains.add("data54.com");
         domains.add("dataarca.com");
         domains.add("datadudi.com");
+        domains.add("datapinacle.com");
         domains.add("datarca.com");
+        domains.add("datastormtech.tech");
         domains.add("datazo.ca");
         domains.add("datenschutz.ru");
+        domains.add("datprovnn.io.vn");
         domains.add("datum2.com");
         domains.add("daum.net");
         domains.add("davegracey.com");
@@ -1892,6 +1877,7 @@ public final class DomainsData {
         domains.add("dcpa.net");
         domains.add("ddcrew.com");
         domains.add("ddker.com");
+        domains.add("ddns.paijishu.cn");
         domains.add("de-a.org");
         domains.add("dea-21olympic.com");
         domains.add("deadaddress.com");
@@ -1914,6 +1900,7 @@ public final class DomainsData {
         domains.add("decep.com");
         domains.add("decodewp.com");
         domains.add("dede.infos.st");
+        domains.add("deducivemail.com");
         domains.add("deekayen.us");
         domains.add("deenur.com");
         domains.add("deepask.app");
@@ -1948,6 +1935,7 @@ public final class DomainsData {
         domains.add("der-kombi.de");
         domains.add("derkombi.de");
         domains.add("derluxuswagen.de");
+        domains.add("dertoza.tech");
         domains.add("deseretmail.com");
         domains.add("desertmail.com");
         domains.add("desertsundesigns.com");
@@ -1956,6 +1944,7 @@ public final class DomainsData {
         domains.add("desilota.com");
         domains.add("desiys.com");
         domains.add("deskpilot.com");
+        domains.add("deskz.bar");
         domains.add("desoz.com");
         domains.add("despam.it");
         domains.add("despammed.com");
@@ -1971,6 +1960,7 @@ public final class DomainsData {
         domains.add("devlug.com");
         domains.add("devnullmail.com");
         domains.add("devotedcouples.com");
+        domains.add("devthien.io.vn");
         domains.add("deyom.com");
         domains.add("dezigner.ru");
         domains.add("dfwatson.com");
@@ -1991,13 +1981,14 @@ public final class DomainsData {
         domains.add("diemhenvn.com");
         domains.add("digdig.org");
         domains.add("digi-value.fr");
+        domains.add("digial.jo3.org");
         domains.add("digibeast.my");
         domains.add("digibeast.store");
         domains.add("digibel.be");
+        domains.add("digimaster.eu.cc");
         domains.add("diginey.com");
         domains.add("digital-filestore.de");
         domains.add("digital-message.com");
-        domains.add("digitaldesign.run.place");
         domains.add("digitalesbusiness.info");
         domains.add("digitalmail.info");
         domains.add("digitalmariachis.com");
@@ -2006,9 +1997,11 @@ public final class DomainsData {
         domains.add("dim-coin.com");
         domains.add("dimalk.com");
         domains.add("dingbone.com");
+        domains.add("dino.icu");
         domains.add("diolang.com");
         domains.add("dion.ne.jp");
         domains.add("diplomats.com");
+        domains.add("dipzstore.com");
         domains.add("directbox.com");
         domains.add("directmail24.net");
         domains.add("dirtracer.com");
@@ -2035,9 +2028,6 @@ public final class DomainsData {
         domains.add("disinfo.net");
         domains.add("disney.ne.jp");
         domains.add("dispo.in");
-    }
-
-    private static void addBatch2(Set<String> domains) {
         domains.add("dispomail.eu");
         domains.add("disposable-e.ml");
         domains.add("disposable-email.ml");
@@ -2045,6 +2035,9 @@ public final class DomainsData {
         domains.add("disposable.com");
         domains.add("disposable.ga");
         domains.add("disposable.ml");
+    }
+
+    private static void addBatch2(Set<String> domains) {
         domains.add("disposable.site");
         domains.add("disposableaddress.com");
         domains.add("disposableemailaddresses.com");
@@ -2068,7 +2061,6 @@ public final class DomainsData {
         domains.add("dlemail.ru");
         domains.add("dm.w3internet.co.uk");
         domains.add("dmailman.com");
-        domains.add("dmailp.cc.cd");
         domains.add("dmarc.ro");
         domains.add("dmts.fr.nf");
         domains.add("dmxs8.com");
@@ -2090,6 +2082,7 @@ public final class DomainsData {
         domains.add("dodgit.org");
         domains.add("dodo.com.au");
         domains.add("dodsi.com");
+        domains.add("doestech.web.id");
         domains.add("dog.com");
         domains.add("dogclothing.org");
         domains.add("dogit.com");
@@ -2131,11 +2124,13 @@ public final class DomainsData {
         domains.add("dontmesswithtexas.com");
         domains.add("dontreg.com");
         domains.add("dontsendmespam.de");
+        domains.add("donu.kaptencpl.com");
         domains.add("donumart.com");
         domains.add("doobb.com");
         domains.add("doojazz.com");
         domains.add("doquier.tk");
         domains.add("doramail.com");
+        domains.add("doreact.com");
         domains.add("dostmail.com");
         domains.add("dotapodemail.com");
         domains.add("dotcom.fr");
@@ -2152,6 +2147,7 @@ public final class DomainsData {
         domains.add("dozvon-spb.ru");
         domains.add("dp76.com");
         domains.add("dplanet.ch");
+        domains.add("dpmstore.id.vn");
         domains.add("dpmurt.my");
         domains.add("dpptd.com");
         domains.add("dr.com");
@@ -2166,7 +2162,9 @@ public final class DomainsData {
         domains.add("dred.ru");
         domains.add("drevo.si");
         domains.add("drewzen.com");
+        domains.add("drgdr.cc.cd");
         domains.add("driftz.net");
+        domains.add("drimex.cfd");
         domains.add("dripzgaming.com");
         domains.add("drivetagdev.com");
         domains.add("drivz.net");
@@ -2185,7 +2183,6 @@ public final class DomainsData {
         domains.add("drowblock.com");
         domains.add("drugsellers.com");
         domains.add("druzik.pp.ua");
-        domains.add("dschat.asia");
         domains.add("dsfsfdsfds.shop");
         domains.add("dsgvo.party");
         domains.add("dsgvo.ru");
@@ -2193,7 +2190,6 @@ public final class DomainsData {
         domains.add("dsiay.com");
         domains.add("dsitip.com");
         domains.add("dspwebservices.com");
-        domains.add("dsqcyy.com");
         domains.add("dtgun.com");
         domains.add("dti.ne.jp");
         domains.add("duam.net");
@@ -2203,6 +2199,9 @@ public final class DomainsData {
         domains.add("dubokutv.com");
         domains.add("duck.com");
         domains.add("duck2.club");
+        domains.add("duckmail.ices.us.ci");
+        domains.add("duckz.me");
+        domains.add("duckzmail.com");
         domains.add("dudmail.com");
         domains.add("dugmail.com");
         domains.add("duk33.com");
@@ -2230,15 +2229,13 @@ public final class DomainsData {
         domains.add("dwp.net");
         domains.add("dwse.edu.pl");
         domains.add("dwseal.com");
-        domains.add("dx.jesys.net");
         domains.add("dyceroprojects.com");
         domains.add("dygo.com");
         domains.add("dygovil.com");
         domains.add("dynamitemail.com");
         domains.add("dyndns.org");
-        domains.add("dysu.ccwu.cc");
+        domains.add("dyur4.xshop.bond");
         domains.add("dz17.net");
-        domains.add("dzpw.uno");
         domains.add("e-apollo.lv");
         domains.add("e-mail.com");
         domains.add("e-mail.com.tr");
@@ -2255,12 +2252,9 @@ public final class DomainsData {
         domains.add("e-record.com");
         domains.add("e-tapaal.com");
         domains.add("e-tomarigi.com");
-        domains.add("e.729406.xyz");
-        domains.add("e2tk.cegll.site");
         domains.add("e3z.de");
         domains.add("e4mz.cegll.site");
         domains.add("e4ward.com");
-        domains.add("e7rp.cegll.site");
         domains.add("e8yc.cegll.site");
         domains.add("eacademia.uk");
         domains.add("ealea.fr.nf");
@@ -2271,6 +2265,7 @@ public final class DomainsData {
         domains.add("earthling.net");
         domains.add("earthlink.net");
         domains.add("earthonline.net");
+        domains.add("earthrockies.xyz");
         domains.add("eartin.net");
         domains.add("ease.es");
         domains.add("eastcoast.co.za");
@@ -2297,6 +2292,7 @@ public final class DomainsData {
         domains.add("ecoverseworld.com");
         domains.add("ecstor.com");
         domains.add("edgepodlab.com");
+        domains.add("edgetopgrid.com");
         domains.add("edgex.ru");
         domains.add("edinburgh-airporthotels.com");
         domains.add("edm.edu.kg");
@@ -2305,12 +2301,10 @@ public final class DomainsData {
         domains.add("ednatx.com");
         domains.add("edny.net");
         domains.add("edtnmail.com");
-        domains.add("edu.risai.store");
         domains.add("educacao.te.pt");
         domains.add("edudingy.cfd");
         domains.add("edumail.edu.pl");
         domains.add("edumail.edu.rs");
-        domains.add("edumail.zenithsr.pro");
         domains.add("edumaili.com");
         domains.add("edumaili.edu.pl");
         domains.add("edumaill.edu.pl");
@@ -2325,11 +2319,14 @@ public final class DomainsData {
         domains.add("effobe.com");
         domains.add("efxs.ca");
         domains.add("eg.hamroemail.com");
+        domains.add("egg5233.one");
         domains.add("eggur.com");
+        domains.add("egh9ef8.jejes.de");
         domains.add("egirl.help");
         domains.add("egvoo.com");
         domains.add("egzones.com");
         domains.add("ehmail.com");
+        domains.add("ehost.cam");
         domains.add("einmalmail.de");
         domains.add("einrot.com");
         domains.add("einrot.de");
@@ -2354,7 +2351,6 @@ public final class DomainsData {
         domains.add("elvis.com");
         domains.add("elvisfan.com");
         domains.add("elygifts.com");
-        domains.add("em.rc0101.site");
         domains.add("email-68.com");
         domains.add("email-fake.cf");
         domains.add("email-fake.com");
@@ -2373,14 +2369,11 @@ public final class DomainsData {
         domains.add("email.cz");
         domains.add("email.edu.pl");
         domains.add("email.ee");
-        domains.add("email.fibcbxa.shop");
-        domains.add("email.hllab.bbroot.com");
+        domains.add("email.gryffindor.edu.kg");
         domains.add("email.it");
         domains.add("email.net");
-        domains.add("email.newcodera.com");
         domains.add("email.nu");
         domains.add("email.org");
-        domains.add("email.qing-meng.top");
         domains.add("email.ro");
         domains.add("email.ru");
         domains.add("email.si");
@@ -2434,6 +2427,7 @@ public final class DomainsData {
         domains.add("emailhook.site");
         domains.add("emailias.com");
         domains.add("emailigo.de");
+        domains.add("emailinbo.live");
         domains.add("emailinfive.com");
         domains.add("emailisvalid.com");
         domains.add("emailit.com");
@@ -2493,7 +2487,6 @@ public final class DomainsData {
         domains.add("ematic.com");
         domains.add("emaxasp.com");
         domains.add("embarqmail.com");
-        domains.add("embassybase.com");
         domains.add("embekhoe.com");
         domains.add("emeil.in");
         domains.add("emeil.ir");
@@ -2518,10 +2511,8 @@ public final class DomainsData {
         domains.add("empireanime.ga");
         domains.add("emstjzh.com");
         domains.add("emz.net");
-        domains.add("en.dpl.ovh");
-        domains.add("en.kpl.ovh");
-        domains.add("enajsndasd.eu.cc");
         domains.add("enayu.com");
+        domains.add("encg.edu.pl");
         domains.add("end-war.com");
         domains.add("end.tw");
         domains.add("endob.com");
@@ -2533,7 +2524,6 @@ public final class DomainsData {
         domains.add("enotj.com");
         domains.add("enterto.com");
         domains.add("envy17.com");
-        domains.add("enzuojp.cc");
         domains.add("eoffice.top");
         domains.add("eonet.ne.jp");
         domains.add("eoopy.com");
@@ -2566,7 +2556,6 @@ public final class DomainsData {
         domains.add("eripo.net");
         domains.add("ero-tube.org");
         domains.add("erth.nl");
-        domains.add("es3368266.dpdns.org");
         domains.add("esadverse.com");
         domains.add("esbano-ru.ru");
         domains.add("esc.la");
@@ -2591,6 +2580,7 @@ public final class DomainsData {
         domains.add("etlgr.com");
         domains.add("etoast.com");
         domains.add("etotvibor.ru");
+        domains.add("etquakemultimedia.com");
         domains.add("etrademail.com");
         domains.add("etramay.com");
         domains.add("etranquil.com");
@@ -2645,6 +2635,7 @@ public final class DomainsData {
         domains.add("explodemail.com");
         domains.add("express.net.ua");
         domains.add("expressasia.com");
+        domains.add("extemer.com");
         domains.add("extenda.net");
         domains.add("extended.com");
         domains.add("extracurricularsociety.com");
@@ -2656,6 +2647,7 @@ public final class DomainsData {
         domains.add("eynlong.com");
         domains.add("eyou.com");
         domains.add("ez.lv");
+        domains.add("ezaiapi.com");
         domains.add("ezcybersearch.com");
         domains.add("ezehe.com");
         domains.add("ezfill.com");
@@ -2670,10 +2662,8 @@ public final class DomainsData {
         domains.add("f-m.fm");
         domains.add("f1fans.net");
         domains.add("f4k.es");
-        domains.add("f4rd.cegll.site");
         domains.add("f7mq.cegll.site");
         domains.add("f8tw.cegll.site");
-        domains.add("f9jq.cegll.site");
         domains.add("fabaos.com");
         domains.add("facebook-email.cf");
         domains.add("facebook-email.ga");
@@ -2735,8 +2725,8 @@ public final class DomainsData {
         domains.add("fast-email.info");
         domains.add("fast-mail.fr");
         domains.add("fast-mail.org");
-        domains.add("fast-temp-mail.info");
         domains.add("fastacura.com");
+        domains.add("fastakses.com");
         domains.add("fastchevy.com");
         domains.add("fastchrysler.com");
         domains.add("fastem.com");
@@ -2796,7 +2786,6 @@ public final class DomainsData {
         domains.add("federalcontractors.com");
         domains.add("feelingmax.chat");
         domains.add("feinripptraeger.de");
-        domains.add("feki.grok-mail.co");
         domains.add("felicitymail.com");
         domains.add("femailtor.com");
         domains.add("femenino.com");
@@ -2819,6 +2808,7 @@ public final class DomainsData {
         domains.add("feyenoorder.com");
         domains.add("ffanet.com");
         domains.add("fft.edu.do");
+        domains.add("fftube.com");
         domains.add("fhpfhp.fr.nf");
         domains.add("fiallaspares.com");
         domains.add("fiberia.com");
@@ -2828,6 +2818,7 @@ public final class DomainsData {
         domains.add("fightallspam.com");
         domains.add("figjs.com");
         domains.add("figshot.com");
+        domains.add("figu.kaptencpl.com");
         domains.add("figurescoin.com");
         domains.add("fiifke.de");
         domains.add("filbert4u.com");
@@ -2847,6 +2838,7 @@ public final class DomainsData {
         domains.add("finebody.com");
         domains.add("finews.biz");
         domains.add("fingso.com");
+        domains.add("fion.waroengmail.com");
         domains.add("fir.hk");
         domains.add("fira.my");
         domains.add("fire-brigade.com");
@@ -2856,6 +2848,7 @@ public final class DomainsData {
         domains.add("firstlawyer.org");
         domains.add("fishburne.org");
         domains.add("fishfuse.com");
+        domains.add("fitmapsmart.com");
         domains.add("fitnesrezink.ru");
         domains.add("fitzola.com");
         domains.add("fivemail.de");
@@ -2881,7 +2874,6 @@ public final class DomainsData {
         domains.add("flowu.com");
         domains.add("flu.cc");
         domains.add("fluidsoft.us");
-        domains.add("fluix.qzz.io");
         domains.add("flurred.com");
         domains.add("fly-ts.de");
         domains.add("flyinggeek.net");
@@ -2899,7 +2891,6 @@ public final class DomainsData {
         domains.add("fncp.store");
         domains.add("fnmail.com");
         domains.add("fog.one");
-        domains.add("foic.top");
         domains.add("folkfan.com");
         domains.add("foobarbot.net");
         domains.add("foodmail.com");
@@ -2932,6 +2923,7 @@ public final class DomainsData {
         domains.add("fosil.pro");
         domains.add("foxja.com");
         domains.add("foxmail.com");
+        domains.add("foxmail.e.b.6.b.0.d.0.0.1.0.a.2.ip6.arpa");
         domains.add("foxnew.info");
         domains.add("foxtrotter.info");
         domains.add("fpxnet.com");
@@ -2994,6 +2986,7 @@ public final class DomainsData {
         domains.add("freemeil.gq");
         domains.add("freemeil.ml");
         domains.add("freeml.net");
+        domains.add("freemyops.com");
         domains.add("freenet.de");
         domains.add("freenet.kg");
         domains.add("freeola.com");
@@ -3038,9 +3031,6 @@ public final class DomainsData {
         domains.add("from-germany.net");
         domains.add("from-holland.com");
         domains.add("from-israel.com");
-    }
-
-    private static void addBatch3(Set<String> domains) {
         domains.add("from-italy.net");
         domains.add("from-japan.net");
         domains.add("from-korea.com");
@@ -3048,6 +3038,9 @@ public final class DomainsData {
         domains.add("from-outerspace.com");
         domains.add("from-russia.com");
         domains.add("from-spain.net");
+    }
+
+    private static void addBatch3(Set<String> domains) {
         domains.add("fromalabama.com");
         domains.add("fromalaska.com");
         domains.add("fromarizona.com");
@@ -3140,6 +3133,7 @@ public final class DomainsData {
         domains.add("funkfan.com");
         domains.add("funnycodesnippets.com");
         domains.add("funnymail.de");
+        domains.add("funtechme.me");
         domains.add("funteka.com");
         domains.add("fuorissimo.com");
         domains.add("furnitureprovider.com");
@@ -3148,6 +3142,7 @@ public final class DomainsData {
         domains.add("fusioninbox.com");
         domains.add("fut.es");
         domains.add("futuramind.com");
+        domains.add("futuretechbuilders.tech");
         domains.add("fuvk.ru");
         domains.add("fuvk.store");
         domains.add("fuwa.be");
@@ -3162,6 +3157,7 @@ public final class DomainsData {
         domains.add("fwnb.com");
         domains.add("fxavaj.com");
         domains.add("fxnxs.com");
+        domains.add("fxqp.waroengmail.com");
         domains.add("fxsmails.com");
         domains.add("fxtubes.com");
         domains.add("fxzig.com");
@@ -3175,7 +3171,6 @@ public final class DomainsData {
         domains.add("g3xmail.top");
         domains.add("g4hdrop.us");
         domains.add("g4pz.cegll.site");
-        domains.add("g5yc.cegll.site");
         domains.add("g6nz.cegll.site");
         domains.add("g9lf.cegll.site");
         domains.add("gafy.net");
@@ -3184,6 +3179,7 @@ public final class DomainsData {
         domains.add("galaxim.fr.nf");
         domains.add("galaxy.tv");
         domains.add("galaxy5.com");
+        domains.add("galaxygas.cc");
         domains.add("galaxyhit.com");
         domains.add("gally.jp");
         domains.add("gam1fy.com");
@@ -3193,7 +3189,6 @@ public final class DomainsData {
         domains.add("gamegeek.com");
         domains.add("gamegregious.com");
         domains.add("gamepec.com");
-        domains.add("gamesense.eu.cc");
         domains.add("gamespotmail.com");
         domains.add("gamgling.com");
         domains.add("gamintor.com");
@@ -3214,7 +3209,6 @@ public final class DomainsData {
         domains.add("gavrom.com");
         domains.add("gawab.com");
         domains.add("gaxetovemail.com");
-        domains.add("gaxp.waroengmail.com");
         domains.add("gaybrighton.co.uk");
         domains.add("gaza.net");
         domains.add("gazeta.pl");
@@ -3227,6 +3221,7 @@ public final class DomainsData {
         domains.add("gddp2018.edu.vn");
         domains.add("gdmail.top");
         domains.add("gdqoe.net");
+        domains.add("gebrauchtwarencenter.com");
         domains.add("gedmail.win");
         domains.add("geecities.com");
         domains.add("geek.com");
@@ -3249,7 +3244,6 @@ public final class DomainsData {
         domains.add("geography.net");
         domains.add("geologist.com");
         domains.add("geopia.com");
-        domains.add("gepohwh.cn");
         domains.add("germanymail.com");
         domains.add("geronra.com");
         domains.add("geschent.biz");
@@ -3267,11 +3261,14 @@ public final class DomainsData {
         domains.add("getairmail.ml");
         domains.add("getairmail.tk");
         domains.add("getasail.com");
+        domains.add("getbloomdata.com");
         domains.add("geteit.com");
         domains.add("getfun.men");
+        domains.add("getgptcode.com");
         domains.add("getmail1.com");
         domains.add("getmailfree.cc");
         domains.add("getmails.eu");
+        domains.add("getmails.top");
         domains.add("getmule.com");
         domains.add("getnada.cc");
         domains.add("getnada.com");
@@ -3279,6 +3276,7 @@ public final class DomainsData {
         domains.add("getol.pro");
         domains.add("getonemail.com");
         domains.add("getonemail.net");
+        domains.add("getotp.fun");
         domains.add("getover.de");
         domains.add("getsimpleemail.com");
         domains.add("gett.icu");
@@ -3290,7 +3288,6 @@ public final class DomainsData {
         domains.add("ggvk.store");
         domains.add("ggxhunter.com");
         domains.add("ghanamail.com");
-        domains.add("gheo.top");
         domains.add("ghk55.us");
         domains.add("gholar.com");
         domains.add("ghostmail.com");
@@ -3299,11 +3296,9 @@ public final class DomainsData {
         domains.add("giacmosuaviet.info");
         domains.add("giaiphapmuasam.com");
         domains.add("giantmail.de");
-        domains.add("gibq.top");
         domains.add("gifto12.com");
         domains.add("giga4u.de");
         domains.add("gigileung.org");
-        domains.add("gilberta.syrf109475.top");
         domains.add("gimbmail.com");
         domains.add("gimme-cooki.es");
         domains.add("gimpmail.com");
@@ -3333,7 +3328,6 @@ public final class DomainsData {
         domains.add("glay.org");
         domains.add("glendale.net");
         domains.add("glitch.sx");
-        domains.add("global-1.huggingface.qzz.io");
         domains.add("globalbizflow.com");
         domains.add("globalcampus.edu.pl");
         domains.add("globalfree.it");
@@ -3345,15 +3339,14 @@ public final class DomainsData {
         domains.add("glucosegrin.com");
         domains.add("gmail.com");
         domains.add("gmail.com.br");
-        domains.add("gmail.h5ma.cn");
         domains.add("gmail.ru");
         domains.add("gmail2.gq");
         domains.add("gmailku.id");
+        domains.add("gmaillk.com");
         domains.add("gmailot.com");
         domains.add("gmatch.org");
         domains.add("gmeenramy.com");
         domains.add("gmial.com");
-        domains.add("gmus.waroengmail.com");
         domains.add("gmx.at");
         domains.add("gmx.ch");
         domains.add("gmx.com");
@@ -3369,9 +3362,11 @@ public final class DomainsData {
         domains.add("go.com");
         domains.add("go.ro");
         domains.add("go.ru");
+        domains.add("go2farm.io.vn");
         domains.add("go2net.com");
         domains.add("go2usa.info");
         domains.add("go2vpn.net");
+        domains.add("goaa.me");
         domains.add("goatmail.uk");
         domains.add("gob.re");
         domains.add("gocollege.com");
@@ -3405,6 +3400,7 @@ public final class DomainsData {
         domains.add("googl.win");
         domains.add("googlegroups.com");
         domains.add("googlemail.com");
+        domains.add("googxs.com");
         domains.add("goomail.club");
         domains.add("goonby.com");
         domains.add("gooner.cat");
@@ -3424,7 +3420,6 @@ public final class DomainsData {
         domains.add("gotmail.org");
         domains.add("gotomy.com");
         domains.add("gotti.otherinbox.com");
-        domains.add("gov.555016.xyz");
         domains.add("gowikibooks.com");
         domains.add("gowikicampus.com");
         domains.add("gowikicars.com");
@@ -3435,12 +3430,19 @@ public final class DomainsData {
         domains.add("gowikitravel.com");
         domains.add("gowikitv.com");
         domains.add("gportal.hu");
+        domains.add("gqim.xyz");
         domains.add("graduate.org");
         domains.add("graffiti.net");
         domains.add("gramszu.net");
         domains.add("grandmamail.com");
         domains.add("grandmasmail.com");
         domains.add("graphic-designer.com");
+        domains.add("graphicanal.site");
+        domains.add("graphicedge.click");
+        domains.add("graphicedge.io.vn");
+        domains.add("graphicenda.site");
+        domains.add("graphiclean.site");
+        domains.add("graphiclens.site");
         domains.add("grapplers.com");
         domains.add("grassdev.com");
         domains.add("gratisweb.com");
@@ -3460,10 +3462,8 @@ public final class DomainsData {
         domains.add("griuc.schule");
         domains.add("grn.cc");
         domains.add("grnail.cam");
-        domains.add("grok.capcuter.com");
         domains.add("grok.imayo.store");
         domains.add("groklan.com");
-        domains.add("grokpremium.my.id");
         domains.add("groupbuff.com");
         domains.add("groupmail.com");
         domains.add("grr.la");
@@ -3475,7 +3475,6 @@ public final class DomainsData {
         domains.add("gsredcross.org");
         domains.add("gsrv.co.uk");
         domains.add("gsxstring.ga");
-        domains.add("gtfacintl.com");
         domains.add("gtmc.net");
         domains.add("gua.net");
         domains.add("guanshuyun.com");
@@ -3496,7 +3495,6 @@ public final class DomainsData {
         domains.add("guerrillamailblock.com");
         domains.add("guessmail.com");
         domains.add("gufum.com");
-        domains.add("guhuni.cyou");
         domains.add("guju.net");
         domains.add("gukox.org");
         domains.add("gustr.com");
@@ -3504,9 +3502,7 @@ public final class DomainsData {
         domains.add("guy2.com");
         domains.add("guyanafriends.com");
         domains.add("guysmail.com");
-        domains.add("guyuan.ccwu.cc");
         domains.add("gxemail.men");
-        domains.add("gxuzi.com");
         domains.add("gyan-netra.com");
         domains.add("gyknife.com");
         domains.add("gynzi.co.uk");
@@ -3519,9 +3515,7 @@ public final class DomainsData {
         domains.add("h0tmaii.com");
         domains.add("h1zn.cegll.site");
         domains.add("h2beta.com");
-        domains.add("h6nz.cegll.site");
         domains.add("h8s.org");
-        domains.add("h8wy.cegll.site");
         domains.add("ha92.store");
         domains.add("hab-verschlafen.de");
         domains.add("haben-wir.com");
@@ -3534,6 +3528,7 @@ public final class DomainsData {
         domains.add("hackersquad.tk");
         domains.add("hacknapp.com");
         domains.add("hackthatbit.ch");
+        domains.add("hafo.grok-mail.co");
         domains.add("hahawrong.com");
         domains.add("haibabon.com");
         domains.add("haida-edu.cn");
@@ -3548,6 +3543,7 @@ public final class DomainsData {
         domains.add("handbag.com");
         domains.add("handleit.com");
         domains.add("handrik.com");
+        domains.add("hane.kaptencpl.com");
         domains.add("hang-ten.com");
         domains.add("hangxomcuatoilatotoro.ml");
         domains.add("hanmail.net");
@@ -3582,7 +3578,6 @@ public final class DomainsData {
         domains.add("headstrong.de");
         domains.add("healthforwomen.info");
         domains.add("healxo.org");
-        domains.add("hearingandbalance.net");
         domains.add("heartthrob.com");
         domains.add("heathenhammer.com");
         domains.add("heathenhero.com");
@@ -3600,18 +3595,19 @@ public final class DomainsData {
         domains.add("helpinghandtaxcenter.org");
         domains.add("helpjobs.ru");
         domains.add("helter-skelter.com");
+        domains.add("heocondeisng.cc");
         domains.add("herediano.com");
-        domains.add("herokata2001.eu.cc");
         domains.add("herono1.com");
         domains.add("heros3.com");
         domains.add("herp.in");
         domains.add("herpderp.nl");
         domains.add("herr-der-mails.de");
+        domains.add("hesoyam.cloud");
+        domains.add("hetbq4z.jejes.de");
         domains.add("hetnet.nl");
         domains.add("hetzez.com");
         domains.add("hey.to");
         domains.add("hezll.com");
-        domains.add("hgu717.ninja");
         domains.add("hh7f.com");
         domains.add("hhdevel.com");
         domains.add("hhe.org.uk");
@@ -3635,6 +3631,7 @@ public final class DomainsData {
         domains.add("highmilton.com");
         domains.add("highquality.com");
         domains.add("highstar.shop");
+        domains.add("hightech.jo3.org");
         domains.add("highveldmail.co.za");
         domains.add("hihi.lol");
         domains.add("hikuhu.com");
@@ -3650,6 +3647,7 @@ public final class DomainsData {
         domains.add("hitel.net");
         domains.add("hitmail.com");
         domains.add("hitthe.net");
+        domains.add("hitzcart.com");
         domains.add("hkg.net");
         domains.add("hkstarphoto.com");
         domains.add("hldrive.com");
@@ -3661,6 +3659,7 @@ public final class DomainsData {
         domains.add("hoanglong.tech");
         domains.add("hochsitze.com");
         domains.add("hockeymail.com");
+        domains.add("hohohim.com");
         domains.add("hola.org");
         domains.add("holio.day");
         domains.add("holl.ga");
@@ -3689,6 +3688,7 @@ public final class DomainsData {
         domains.add("hopemail.biz");
         domains.add("hopesx.com");
         domains.add("horizonspost.com");
+        domains.add("hormails.com");
         domains.add("hornyalwary.top");
         domains.add("horrormail.com");
         domains.add("host1s.com");
@@ -3704,8 +3704,11 @@ public final class DomainsData {
         domains.add("hot-shot.com");
         domains.add("hot.ee");
         domains.add("hotbot.com");
+        domains.add("hotboyckdh.shop");
+        domains.add("hotboyckdh1122.shop");
         domains.add("hotbrev.com");
         domains.add("hotfire.net");
+        domains.add("hotkeystech.biz.id");
         domains.add("hotletter.com");
         domains.add("hotlinkimg.com");
         domains.add("hotmai.com");
@@ -3739,6 +3742,7 @@ public final class DomainsData {
         domains.add("hotrokh.com");
         domains.add("hotsoup.be");
         domains.add("hottchurch.org.uk");
+        domains.add("hotvcs.live");
         domains.add("hotvoice.com");
         domains.add("housat.com");
         domains.add("housemail.com");
@@ -3754,12 +3758,9 @@ public final class DomainsData {
         domains.add("httpsgreenwichmeantime.in");
         domains.add("hu2.ru");
         domains.add("huangniu8.com");
-        domains.add("huas.hllab.bbroot.com");
         domains.add("hubglee.com");
         domains.add("hubhost.store");
-        domains.add("hudfcaf.nsmjj.cc.cd");
         domains.add("hudisk.com");
-        domains.add("hudu.grok-mail.co");
         domains.add("hughes.net");
         domains.add("huizk.com");
         domains.add("hukkmu.tk");
@@ -3771,19 +3772,24 @@ public final class DomainsData {
         domains.add("hunnur.com");
         domains.add("hunsa.com");
         domains.add("huongdanfb.com");
-        domains.add("huro.grok-mail.co");
         domains.add("hurting.com");
         domains.add("hush.com");
         domains.add("hushmail.cf");
         domains.add("hushmail.com");
         domains.add("huskion.net");
+        domains.add("huso.waroengin.com");
         domains.add("hutudns.com");
+        domains.add("huychau.click");
+        domains.add("huychau.online");
+        domains.add("huychau.site");
+        domains.add("huytuyen.site");
         domains.add("hvastudiesucces.nl");
         domains.add("hwsye.net");
         domains.add("hxopi.ru");
         domains.add("hxopi.store");
         domains.add("hypenated-domain.com");
         domains.add("hypernautica.com");
+        domains.add("hyperstreammei.space");
         domains.add("i-connect.com");
         domains.add("i-dork.com");
         domains.add("i-france.com");
@@ -3794,11 +3800,7 @@ public final class DomainsData {
         domains.add("i.ua");
         domains.add("i12.com");
         domains.add("i2pmail.org");
-        domains.add("i3qw.cegll.site");
         domains.add("i6.cloudns.cc");
-        domains.add("i6qz.cegll.site");
-        domains.add("i7xk.cegll.site");
-        domains.add("i8qm.cegll.site");
         domains.add("iaciu.com");
         domains.add("iamawoman.com");
         domains.add("iamwaiting.com");
@@ -3809,6 +3811,7 @@ public final class DomainsData {
         domains.add("ibande.xyz");
         domains.add("ibnuh.bz");
         domains.add("ibolinva.com");
+        domains.add("ibun.cc");
         domains.add("ibymail.com");
         domains.add("icantbelieveineedtoexplainthisshit.com");
         domains.add("icbr.us");
@@ -3846,6 +3849,7 @@ public final class DomainsData {
         domains.add("ieh-mail.de");
         domains.add("iencm.com");
         domains.add("iespana.es");
+        domains.add("ifcoat.com");
         domains.add("iffymedia.com");
         domains.add("ifoward.com");
         domains.add("ifoxdd.com");
@@ -3862,16 +3866,10 @@ public final class DomainsData {
         domains.add("ihnpo.food");
         domains.add("iij4u.or.jp");
         domains.add("iinet.net.au");
-        domains.add("iivyll.bbroot.com");
-        domains.add("iivyll.cc.cd");
-        domains.add("iivyll.ccwu.cc");
-        domains.add("iivyll.cn.mt");
         domains.add("ijustdontcare.com");
         domains.add("ikbenspamvrij.nl");
         domains.add("ikewe.com");
         domains.add("ikomail.com");
-        domains.add("ikun2027.com.cfd");
-        domains.add("ikuncode.eu.cc");
         domains.add("ikuromi.com");
         domains.add("ilkposta.com");
         domains.add("illistnoise.com");
@@ -3970,11 +3968,13 @@ public final class DomainsData {
         domains.add("inerted.com");
         domains.add("inet.com");
         domains.add("inet.net.au");
+        domains.add("infix1.io.vn");
         domains.add("info-media.de");
         domains.add("info-radio.ml");
         domains.add("info66.com");
         domains.add("infobuzzsite.com");
         domains.add("infocom.zp.ua");
+        domains.add("infocrafttaku.tech");
         domains.add("infohq.com");
         domains.add("infomail.es");
         domains.add("infomart.or.jp");
@@ -4033,7 +4033,6 @@ public final class DomainsData {
         domains.add("interia.pl");
         domains.add("interlap.com.ar");
         domains.add("intermail.co.il");
-        domains.add("internaut.us.to");
         domains.add("internet-e-mail.com");
         domains.add("internet-mail.org");
         domains.add("internet-police.com");
@@ -4041,13 +4040,14 @@ public final class DomainsData {
         domains.add("internetbiz.com");
         domains.add("internetdrive.com");
         domains.add("internetegypt.com");
+        domains.add("internetemails.net");
     }
 
     private static void addBatch4(Set<String> domains) {
-        domains.add("internetemails.net");
         domains.add("internetkeno.com");
         domains.add("internetmailing.net");
         domains.add("internetoftags.com");
+        domains.add("internetteca.net");
         domains.add("internode.on.net");
         domains.add("interstats.org");
         domains.add("intersteller.com");
@@ -4114,7 +4114,7 @@ public final class DomainsData {
         domains.add("isp9.net");
         domains.add("ispeedtest.digital");
         domains.add("israelmail.com");
-        domains.add("israeloil.abrdns.com");
+        domains.add("isrw.xyz");
         domains.add("ist-allein.info");
         domains.add("ist-einmalig.de");
         domains.add("ist-ganz-allein.de");
@@ -4156,7 +4156,6 @@ public final class DomainsData {
         domains.add("izadpanah.com");
         domains.add("j-p.us");
         domains.add("j1wy.cegll.site");
-        domains.add("j2xm.cegll.site");
         domains.add("j8tv.cegll.site");
         domains.add("jabmag.com");
         domains.add("jafps.com");
@@ -4176,18 +4175,16 @@ public final class DomainsData {
         domains.add("jasonbella.online");
         domains.add("javadmin.com");
         domains.add("javaemail.com");
+        domains.add("jawline.site");
         domains.add("jaydemail.com");
         domains.add("jazzandjava.com");
         domains.add("jazzfan.com");
         domains.add("jazzgame.com");
-        domains.add("jbapi891313.eu.cc");
         domains.add("jbsze.com");
         domains.add("jbsze.ne");
         domains.add("jcnorris.com");
         domains.add("jcom.home.ne.jp");
         domains.add("jcom.zaq.ne.jp");
-        domains.add("jctn.bbroot.com");
-        domains.add("jctn.cn.mt");
         domains.add("jdmadventures.com");
         domains.add("jdz.ro");
         domains.add("je-recycle.info");
@@ -4203,13 +4200,11 @@ public final class DomainsData {
         domains.add("jetable.org");
         domains.add("jetable.pp.ua");
         domains.add("jetemail.net");
-        domains.add("jeuw.sgbteam.co");
+        domains.add("jexv6f2.jejes.de");
         domains.add("ji5.de");
         domains.add("ji6.de");
         domains.add("ji7.de");
-        domains.add("jiakuancloud.com");
         domains.add("jibbo01.com");
-        domains.add("jidns.top");
         domains.add("jincer.com");
         domains.add("jinva.fr.nf");
         domains.add("jiooq.com");
@@ -4217,7 +4212,6 @@ public final class DomainsData {
         domains.add("jippii.fi");
         domains.add("jjj.ee");
         domains.add("jjk.app");
-        domains.add("jk8h.info");
         domains.add("jkotypc.com");
         domains.add("jmail.co.za");
         domains.add("jmail.fr.nf");
@@ -4227,6 +4221,7 @@ public final class DomainsData {
         domains.add("job4u.com");
         domains.add("jobbikszimpatizans.hu");
         domains.add("jobbrett.com");
+        domains.add("jobotid.web.id");
         domains.add("jobposts.net");
         domains.add("jobs-to-be-done.net");
         domains.add("jobzyy.com");
@@ -4236,7 +4231,6 @@ public final class DomainsData {
         domains.add("jofuso.com");
         domains.add("joinme.com");
         domains.add("jokes.com");
-        domains.add("jomeil.com");
         domains.add("jopho.com");
         domains.add("jordanmail.com");
         domains.add("joseihorumon.info");
@@ -4253,6 +4247,7 @@ public final class DomainsData {
         domains.add("jtpx.xyz");
         domains.add("jualfb.co");
         domains.add("jubiimail.dk");
+        domains.add("juhxs.com");
         domains.add("jumonji.tk");
         domains.add("jump.com");
         domains.add("jumpy.it");
@@ -4274,11 +4269,8 @@ public final class DomainsData {
         domains.add("jwork.ru");
         domains.add("jxpomup.com");
         domains.add("k-global.dev");
-        domains.add("k0jbs5hm.ccwu.cc");
         domains.add("k3nz.cegll.site");
         domains.add("k4money.com");
-        domains.add("k4tv.cegll.site");
-        domains.add("k6yt.cegll.site");
         domains.add("k8qz.cegll.site");
         domains.add("kaazoo.com");
         domains.add("kabamail.com");
@@ -4298,6 +4290,7 @@ public final class DomainsData {
         domains.add("kakao-mail.com");
         domains.add("kakao.com");
         domains.add("kakator.com");
+        domains.add("kakaveo3.io.vn");
         domains.add("kakslsie.store");
         domains.add("kalapi.org");
         domains.add("kalpoint.com");
@@ -4312,6 +4305,7 @@ public final class DomainsData {
         domains.add("kapoorweb.com");
         domains.add("kappala.info");
         domains.add("kapten.site");
+        domains.add("kaptencpl.com");
         domains.add("kara-turk.net");
         domains.add("karachian.com");
         domains.add("karachioye.com");
@@ -4331,6 +4325,8 @@ public final class DomainsData {
         domains.add("kbjrmail.com");
         domains.add("kbox.li");
         domains.add("kcks.com");
+        domains.add("kcm.ono.biz.id");
+        domains.add("kcm3.ono.biz.id");
         domains.add("kcn.ne.jp");
         domains.add("kcoporation.com");
         domains.add("kcrw.de");
@@ -4338,7 +4334,6 @@ public final class DomainsData {
         domains.add("keecs.com");
         domains.add("keepmymail.com");
         domains.add("keg-party.com");
-        domains.add("kegui.net");
         domains.add("kein.date");
         domains.add("keinhirn.de");
         domains.add("keinpardon.de");
@@ -4350,6 +4345,7 @@ public final class DomainsData {
         domains.add("kellychibale-researchgroup-uct.com");
         domains.add("kemail.uk");
         domains.add("kemptvillebaseball.com");
+        domains.add("kendev.id.vn");
         domains.add("kenfern.com");
         domains.add("kenhbanme.com");
         domains.add("kenhphim.net");
@@ -4359,8 +4355,10 @@ public final class DomainsData {
         domains.add("ketua.id");
         domains.add("keyemail.com");
         domains.add("kgb.hu");
+        domains.add("kgpe.waroengmail.com");
         domains.add("khoke.nl");
         domains.add("khosropour.com");
+        domains.add("khtextile.com");
         domains.add("kiani.com");
         domains.add("kickassmail.com");
         domains.add("kidaroa.com");
@@ -4368,18 +4366,20 @@ public final class DomainsData {
         domains.add("killermail.com");
         domains.add("killmail.com");
         domains.add("killmail.net");
+        domains.add("killmen.sryze.cc");
         domains.add("killyourtime.com");
         domains.add("kimdyn.com");
         domains.add("kimo.com");
         domains.add("kimsdisk.com");
         domains.add("kinda.email");
         domains.add("kindamail.com");
+        domains.add("kinggpt.biz.id");
         domains.add("kinglibrary.net");
         domains.add("kingsq.ga");
         domains.add("kinki-kids.com");
         domains.add("kino-100.ru");
-        domains.add("kioco.qzz.io");
         domains.add("kiois.com");
+        domains.add("kirakiratown.tokyo");
         domains.add("kismail.ru");
         domains.add("kisoq.com");
         domains.add("kissfans.com");
@@ -4392,7 +4392,6 @@ public final class DomainsData {
         domains.add("kiwitown.com");
         domains.add("kjkpc.net");
         domains.add("kjkszpjcompany.com");
-        domains.add("kkkfjnc.info");
         domains.add("kkmail.be");
         domains.add("kkoup.com");
         domains.add("kksm.be");
@@ -4419,8 +4418,6 @@ public final class DomainsData {
         domains.add("kodeholik.site");
         domains.add("kodpan.com");
         domains.add("kokalo.store");
-        domains.add("kokoa.eu.cc");
-        domains.add("kokoroa.eu.cc");
         domains.add("koletter.com");
         domains.add("kolumbus.fi");
         domains.add("kommespaeter.de");
@@ -4442,22 +4439,23 @@ public final class DomainsData {
         domains.add("kostenlosemailadresse.de");
         domains.add("koszmail.pl");
         domains.add("kpay.be");
-        domains.add("kpl.ovh");
+        domains.add("kpmn-design.org");
         domains.add("kpnmail.nl");
         domains.add("kpooa.com");
         domains.add("kpost.be");
         domains.add("krd.ag");
         domains.add("krim.ws");
+        domains.add("kristenwhi222.buzz");
         domains.add("krongthip.com");
         domains.add("krsw.tk");
         domains.add("kruay.com");
         domains.add("krunis.com");
         domains.add("krypton.tk");
-        domains.add("ksadj123.eu.cc");
         domains.add("ksanmail.com");
         domains.add("ksee24mail.com");
         domains.add("ksmtrck.tk");
         domains.add("kube93mail.com");
+        domains.add("kuhi.grok-mail.co");
         domains.add("kuhrap.com");
         domains.add("kukamail.com");
         domains.add("kuku.lu");
@@ -4480,18 +4478,14 @@ public final class DomainsData {
         domains.add("kyois.com");
         domains.add("kyriog.fr");
         domains.add("kyuusei.fr.nf");
-        domains.add("kyx.zcyrus.qzz.io");
         domains.add("kzccv.com");
         domains.add("l-c-a.us");
-        domains.add("l1dk.cegll.site");
-        domains.add("l2vn.cegll.site");
         domains.add("l33r.eu");
         domains.add("l5xr.cegll.site");
         domains.add("l6factors.com");
-        domains.add("l6mf.cegll.site");
-        domains.add("l8.jesys.net");
         domains.add("la.com");
         domains.add("laafd.com");
+        domains.add("labebeh.net");
         domains.add("labetteraverouge.at");
         domains.add("labworld.org");
         domains.add("lacedmail.com");
@@ -4508,6 +4502,7 @@ public final class DomainsData {
         domains.add("lakelivingstonrealestate.com");
         domains.add("lakmail.com");
         domains.add("lakqs.com");
+        domains.add("laksana.in");
         domains.add("lamasticots.com");
         domains.add("lambsauce.de");
         domains.add("lamer.hu");
@@ -4516,7 +4511,6 @@ public final class DomainsData {
         domains.add("landmail.nl");
         domains.add("lankamail.com");
         domains.add("laoeq.com");
-        domains.add("laoi.top");
         domains.add("laoia.com");
         domains.add("lapakqu.com");
         domains.add("laposte.net");
@@ -4531,9 +4525,10 @@ public final class DomainsData {
         domains.add("lastmail.com");
         domains.add("latemodels.com");
         domains.add("latinmail.com");
+        domains.add("launders.money");
         domains.add("lavache.com");
-        domains.add("lavishmail.com");
         domains.add("law.com");
+        domains.add("lawe.kaptencpl.com");
         domains.add("lawlita.com");
         domains.add("lawyer.com");
         domains.add("laxex.ru");
@@ -4554,10 +4549,13 @@ public final class DomainsData {
         domains.add("leeching.net");
         domains.add("leehom.net");
         domains.add("leetmail.co");
+        domains.add("legadmin.org");
         domains.add("legalactions.com");
         domains.add("legalrc.loan");
+        domains.add("legendaryseller.com");
         domains.add("legislator.com");
         domains.add("lellno.gq");
+        domains.add("lenmon.net");
         domains.add("lenovog4.com");
         domains.add("lenta.ru");
         domains.add("leonlai.net");
@@ -4565,6 +4563,7 @@ public final class DomainsData {
         domains.add("lerbhe.com");
         domains.add("lerch.ovh");
         domains.add("lero3.com");
+        domains.add("leruvo.icu");
         domains.add("lesobprovermail.com");
         domains.add("letsgomets.net");
         domains.add("letterboxes.org");
@@ -4572,7 +4571,6 @@ public final class DomainsData {
         domains.add("letterprotect.net");
         domains.add("lettersboxmail.com");
         domains.add("letthemeatspam.com");
-        domains.add("letv377.nsmjj.tech");
         domains.add("levele.com");
         domains.add("levele.hu");
         domains.add("lex.bg");
@@ -4584,6 +4582,7 @@ public final class DomainsData {
         domains.add("libero.it");
         domains.add("liberomail.com");
         domains.add("libinit.com");
+        domains.add("librthly.com");
         domains.add("lick101.com");
         domains.add("liebt-dich.info");
         domains.add("lifebyfood.com");
@@ -4598,14 +4597,12 @@ public final class DomainsData {
         domains.add("lilspam.com");
         domains.add("lilsuite.id");
         domains.add("lindenbaumjapan.com");
-        domains.add("lingeriesceinturesfemme.com");
-        domains.add("linhk.work.gd");
         domains.add("link2mail.net");
         domains.add("linkedintuts2016.pw");
         domains.add("linkmail.info");
         domains.add("linkmaster.com");
+        domains.add("linkpc.net");
         domains.add("linktrader.com");
-        domains.add("linkverseo.sbs");
         domains.add("linlshe.com");
         domains.add("linshiyou.com");
         domains.add("linshiyouxiang.net");
@@ -4615,6 +4612,7 @@ public final class DomainsData {
         domains.add("liocbrco.com");
         domains.add("lionsfan.com.au");
         domains.add("liontrucks.com");
+        domains.add("liopsacac.shop");
         domains.add("liquidinformation.net");
         domains.add("list.ru");
         domains.add("lista.cc");
@@ -4622,6 +4620,7 @@ public final class DomainsData {
         domains.add("litedrop.com");
         domains.add("littleapple.com");
         domains.add("littleblueroom.com");
+        domains.add("littlejohns.info");
         domains.add("live.at");
         domains.add("live.be");
         domains.add("live.ca");
@@ -4662,6 +4661,7 @@ public final class DomainsData {
         domains.add("loaoa.com");
         domains.add("loapq.com");
         domains.add("lobbyist.com");
+        domains.add("loboid.store");
         domains.add("localbar.com");
         domains.add("locanto1.club");
         domains.add("locantofuck.top");
@@ -4682,20 +4682,22 @@ public final class DomainsData {
         domains.add("loin.in");
         domains.add("lol.hllab.bbroot.com");
         domains.add("lolfreak.net");
+        domains.add("lolihentai.live");
         domains.add("lolito.tk");
         domains.add("lolmail.biz");
+        domains.add("lonaxter.site");
         domains.add("london.com");
         domains.add("longsbkt.xyz");
         domains.add("looksmart.co.uk");
         domains.add("looksmart.com");
         domains.add("looksmart.com.au");
-        domains.add("looksmax.sbs");
         domains.add("lookugly.com");
         domains.add("lopezclub.com");
         domains.add("lordofmysteries.org");
         domains.add("lordsofts.com");
         domains.add("lortemail.dk");
         domains.add("losemymail.com");
+        domains.add("lostsaga.me");
         domains.add("louiskoo.com");
         domains.add("love-your.mom");
         domains.add("love.cz");
@@ -4722,18 +4724,14 @@ public final class DomainsData {
         domains.add("lroid.com");
         domains.add("lru.me");
         domains.add("ls-server.ru");
-        domains.add("lsa1230.dpdns.org");
         domains.add("lsaar.com");
         domains.add("lsereborn.com");
-        domains.add("lsjd.ccwu.cc");
-        domains.add("lsp.lsa1230.dpdns.org");
         domains.add("lsyx24.com");
-        domains.add("lucky2027.zz.cd");
         domains.add("luckymail.org");
-        domains.add("luguangtech.com");
         domains.add("lukecarriere.com");
         domains.add("lukemail.info");
         domains.add("lukop.dk");
+        domains.add("lum25kcredit.io.vn");
         domains.add("lumeika.com");
         domains.add("lumg.uk");
         domains.add("lunor.cfd");
@@ -4743,53 +4741,26 @@ public final class DomainsData {
         domains.add("luukku.com");
         domains.add("luv2.us");
         domains.add("luzyaja.shop");
-        domains.add("lvcaodibeer.com");
         domains.add("lvie.com.sg");
-        domains.add("lwvutyk.info");
-        domains.add("lx.sdfe.app");
         domains.add("lxbeta.com");
-        domains.add("ly13nii.cn");
-        domains.add("lyan97dll.cn");
         domains.add("lycos.co.uk");
         domains.add("lycos.com");
         domains.add("lycos.es");
         domains.add("lycos.it");
         domains.add("lycos.ne.jp");
         domains.add("lycosmail.com");
-        domains.add("lyd73ke.cn");
         domains.add("lydir.com");
-        domains.add("lyf36mkl.cn");
         domains.add("lyfestylecreditsolutions.com");
-        domains.add("lyfr65zne.cn");
         domains.add("lyft.live");
-        domains.add("lygv76sax.cn");
-        domains.add("lyh86mwx.cn");
-        domains.add("lyi25swr.cn");
-        domains.add("lyjw06gi.cn");
-        domains.add("lyjy85kov.cn");
-        domains.add("lykw81kl.cn");
-        domains.add("lymv33yww.cn");
-        domains.add("lyn96qku.cn");
         domains.add("lynex.sbs");
         domains.add("lynwise.shop");
-        domains.add("lyou61ra.cn");
-        domains.add("lyrd82asw.cn");
         domains.add("lyricspad.net");
-        domains.add("lyrm99urz.cn");
-        domains.add("lys48fgq.cn");
-        domains.add("lyso86uvj.cn");
-        domains.add("lysy73zki.cn");
-        domains.add("lyt75luo.cn");
-        domains.add("lyux39qw.cn");
-        domains.add("lyxm65yyl.cn");
-        domains.add("lyy21lzw.cn");
-        domains.add("lyyt34ga.cn");
         domains.add("lzoaq.com");
         domains.add("m-a-i-l.com");
         domains.add("m-hmail.com");
-        domains.add("m1.lx1qzz.qzz.io");
         domains.add("m1vf.cegll.site");
         domains.add("m21.cc");
+        domains.add("m3player.com");
         domains.add("m3qf.cegll.site");
         domains.add("m4.org");
         domains.add("m4ilweb.info");
@@ -4846,74 +4817,40 @@ public final class DomainsData {
         domains.add("mail-temporaire.com");
         domains.add("mail-temporaire.fr");
         domains.add("mail-tester.com");
-        domains.add("mail.175825.xyz");
         domains.add("mail.austria.com");
         domains.add("mail.az");
-        domains.add("mail.b-3.huggingface.qzz.io");
-        domains.add("mail.b-6.kpe.de5.net");
         domains.add("mail.be");
         domains.add("mail.bg");
         domains.add("mail.bulgaria.com");
         domains.add("mail.by");
-        domains.add("mail.caiasian.cn");
-        domains.add("mail.capperflag.top");
-        domains.add("mail.cckff.ggff.net");
         domains.add("mail.co.za");
         domains.add("mail.com");
         domains.add("mail.com.tr");
         domains.add("mail.de");
-        domains.add("mail.e024.eu.cc");
         domains.add("mail.ee");
         domains.add("mail.entrepeneurmag.com");
         domains.add("mail.freetown.com");
-        domains.add("mail.frink.huggingface.qzz.io");
-        domains.add("mail.fxtx.top");
-        domains.add("mail.g-1.vactor1.us.ci");
-        domains.add("mail.g-10.vactor1.us.ci");
-        domains.add("mail.g-2.vactor1.us.ci");
-        domains.add("mail.g-3.vactor1.us.ci");
-        domains.add("mail.g-4.vactor1.us.ci");
-        domains.add("mail.g-5.vactor1.us.ci");
-        domains.add("mail.g-6.vactor1.us.ci");
-        domains.add("mail.g-7.vactor1.us.ci");
-        domains.add("mail.g-8.vactor1.us.ci");
         domains.add("mail.g-9.vactor1.us.ci");
-        domains.add("mail.global-1-la-finkles.xgai.qzz.io");
-        domains.add("mail.global-1.kpe.de5.net");
-        domains.add("mail.global-2.kpe.de5.net");
-        domains.add("mail.global-3.kpe.de5.net");
-        domains.add("mail.global-4.kpe.de5.net");
-        domains.add("mail.global-5.kpe.de5.net");
         domains.add("mail.goo.ne.jp");
         domains.add("mail.gr");
         domains.add("mail.gw");
-        domains.add("mail.happyhome.eu.cc");
-        domains.add("mail.hipda.eu.cc");
         domains.add("mail.hitthebeach.com");
-        domains.add("mail.homehappy.eu.cc");
         domains.add("mail.htl22.at");
-        domains.add("mail.loveopenai.eu.cc");
-        domains.add("mail.magicyue.top");
         domains.add("mail.md");
         domains.add("mail.misterpinball.de");
         domains.add("mail.nu");
         domains.add("mail.org.uk");
         domains.add("mail.pf");
-        domains.add("mail.pkday.eu.cc");
         domains.add("mail.pt");
         domains.add("mail.r-o-o-t.com");
         domains.add("mail.ru");
         domains.add("mail.sisna.com");
         domains.add("mail.sony.jp");
-        domains.add("mail.sunshine8.site");
         domains.add("mail.svenz.eu");
-        domains.add("mail.tadeo.bond");
         domains.add("mail.tm");
         domains.add("mail.usa.com");
         domains.add("mail.vasarhely.hu");
         domains.add("mail.wtf");
-        domains.add("mail.wuwang1028.bond");
-        domains.add("mail.xiaolajiaoyyds.com");
         domains.add("mail0.ga");
         domains.add("mail1.top");
         domains.add("mail101.xyz");
@@ -4921,9 +4858,9 @@ public final class DomainsData {
         domains.add("mail114.net");
         domains.add("mail12h.com");
         domains.add("mail15.com");
+        domains.add("mail16.capytumbum.online");
         domains.add("mail1a.de");
         domains.add("mail1web.org");
-        domains.add("mail1yyds.hbkj.eu.cc");
         domains.add("mail2007.com");
         domains.add("mail21.cc");
         domains.add("mail22.club");
@@ -5044,9 +4981,6 @@ public final class DomainsData {
         domains.add("mail2beverly.com");
         domains.add("mail2beyond.com");
         domains.add("mail2biker.com");
-    }
-
-    private static void addBatch5(Set<String> domains) {
         domains.add("mail2bill.com");
         domains.add("mail2billionaire.com");
         domains.add("mail2billy.com");
@@ -5110,6 +5044,9 @@ public final class DomainsData {
         domains.add("mail2champaign.com");
         domains.add("mail2charles.com");
         domains.add("mail2chef.com");
+    }
+
+    private static void addBatch5(Set<String> domains) {
         domains.add("mail2chemist.com");
         domains.add("mail2cherry.com");
         domains.add("mail2chicago.com");
@@ -5651,7 +5588,6 @@ public final class DomainsData {
         domains.add("mail2maxwell.com");
         domains.add("mail2maybe.com");
         domains.add("mail2mba.com");
-        domains.add("mail2me.co");
         domains.add("mail2me4u.com");
         domains.add("mail2mechanic.com");
         domains.add("mail2medieval.com");
@@ -6047,9 +5983,6 @@ public final class DomainsData {
         domains.add("mail2tara.com");
         domains.add("mail2taurus.com");
         domains.add("mail2taxi.com");
-    }
-
-    private static void addBatch6(Set<String> domains) {
         domains.add("mail2taxidermist.com");
         domains.add("mail2taylor.com");
         domains.add("mail2taz.com");
@@ -6114,6 +6047,9 @@ public final class DomainsData {
         domains.add("mail2ukraine.com");
         domains.add("mail2uncle.com");
         domains.add("mail2unsubscribe.com");
+    }
+
+    private static void addBatch6(Set<String> domains) {
         domains.add("mail2uptown.com");
         domains.add("mail2uruguay.com");
         domains.add("mail2usa.com");
@@ -6343,7 +6279,6 @@ public final class DomainsData {
         domains.add("mailjunk.gq");
         domains.add("mailjunk.ml");
         domains.add("mailjunk.tk");
-        domains.add("maill.wuwang1028.bond");
         domains.add("maillog.uk");
         domains.add("mailmagnet.co");
         domains.add("mailmate.com");
@@ -6444,10 +6379,12 @@ public final class DomainsData {
         domains.add("mailueberfall.de");
         domains.add("mailuniverse.co.uk");
         domains.add("mailup.net");
+        domains.add("mailvip.net");
+        domains.add("mailvippro.com");
         domains.add("mailw.site");
         domains.add("mailwire.com");
         domains.add("mailworks.org");
-        domains.add("mailx.04.mom");
+        domains.add("mailyra.com");
         domains.add("mailzi.ru");
         domains.add("mailzilla.com");
         domains.add("mailzilla.org");
@@ -6460,7 +6397,6 @@ public final class DomainsData {
         domains.add("malahov.de");
         domains.add("malayalamdtp.com");
         domains.add("malayalamtelevision.net");
-        domains.add("mali.729406.xyz");
         domains.add("malioter.pro");
         domains.add("maltesemail.com");
         domains.add("mama3.org");
@@ -6491,6 +6427,7 @@ public final class DomainsData {
         domains.add("marsattack.com");
         domains.add("martindalemail.com");
         domains.add("marvetos.com");
+        domains.add("masdwi.my.id");
         domains.add("mash4077.com");
         domains.add("mask03.ru");
         domains.add("maskmy.id");
@@ -6499,19 +6436,20 @@ public final class DomainsData {
         domains.add("maswae.world");
         domains.add("matamuasu.ga");
         domains.add("matchpol.net");
+        domains.add("matkind.com");
         domains.add("matmail.com");
         domains.add("matmayer.com");
         domains.add("matra.site");
         domains.add("mauimail.com");
         domains.add("mauritius.com");
         domains.add("max-mail.org");
+        domains.add("maximail.fyi");
+        domains.add("maximail.vip");
         domains.add("maxleft.com");
         domains.add("maxmail.co.uk");
         domains.add("maxresistance.com");
         domains.add("maxturns.com");
-        domains.add("mayre.shop");
-        domains.add("mbal.top");
-        domains.add("mbjork.com");
+        domains.add("mayonaka.cloud");
         domains.add("mbox.com.au");
         domains.add("mbox.re");
         domains.add("mbx.cc");
@@ -6527,6 +6465,7 @@ public final class DomainsData {
         domains.add("me.com");
         domains.add("meantinc.com");
         domains.add("mebelnu.info");
+        domains.add("mech2build.io.vn");
         domains.add("mechanicalresumes.com");
         domains.add("mechanicspedia.com");
         domains.add("medevsa.com");
@@ -6553,15 +6492,16 @@ public final class DomainsData {
         domains.add("meinspamschutz.de");
         domains.add("mekhong.com");
         domains.add("melakoni.web.id");
+        domains.add("melbourne.edu.pl");
         domains.add("melodymail.com");
         domains.add("meloo.com");
         domains.add("meltedbrownies.com");
         domains.add("meltmail.com");
         domains.add("meltp.com");
         domains.add("memeazon.com");
-        domains.add("memoryence.com");
         domains.add("memsg.site");
         domains.add("mentonit.net");
+        domains.add("menu.kaptencpl.com");
         domains.add("meocon.org");
         domains.add("meomo.store");
         domains.add("mepost.pw");
@@ -6587,7 +6527,6 @@ public final class DomainsData {
         domains.add("metalfan.com");
         domains.add("metalunits.com");
         domains.add("metaping.com");
-        domains.add("mete.bbroot.com");
         domains.add("metta.lk");
         domains.add("mexicomail.com");
         domains.add("mexvat.com");
@@ -6600,7 +6539,6 @@ public final class DomainsData {
         domains.add("miaferrari.com");
         domains.add("miauj.com");
         domains.add("mickaben.fr.nf");
-        domains.add("microsoftazureamazonawsibmapplenvidiaoracleciscoadobe.com");
         domains.add("midcoastcustoms.com");
         domains.add("midcoastcustoms.net");
         domains.add("midcoastsolutions.com");
@@ -6624,7 +6562,6 @@ public final class DomainsData {
         domains.add("mikrotikvietnam.com");
         domains.add("mikrotikvn.com");
         domains.add("mikrotikx.com");
-        domains.add("milier.cn.mt");
         domains.add("millionaireintraining.com");
         domains.add("millionairemail.com");
         domains.add("milmail.com");
@@ -6635,6 +6572,7 @@ public final class DomainsData {
         domains.add("mindspring.com");
         domains.add("minefieldmail.com");
         domains.add("mineo.jp");
+        domains.add("minetmail.com");
         domains.add("minhquang2000.com");
         domains.add("minimail.gq");
         domains.add("minister.com");
@@ -6646,6 +6584,7 @@ public final class DomainsData {
         domains.add("minuteinbox.com");
         domains.add("mirai.re");
         domains.add("misery.net");
+        domains.add("missionbulldogs.org");
         domains.add("misterpinball.de");
         domains.add("mitico.org");
         domains.add("mittalweb.com");
@@ -6668,13 +6607,12 @@ public final class DomainsData {
         domains.add("mlgmail.top");
         domains.add("mliok.com");
         domains.add("mm.my");
-        domains.add("mm.rc0101.site");
         domains.add("mm.st");
         domains.add("mm5.se");
-        domains.add("mmail.wuwang1028.bond");
         domains.add("mmaily.com");
         domains.add("mnode.me");
         domains.add("mns.ru");
+        domains.add("mnvr.site");
         domains.add("moakt.cc");
         domains.add("moakt.co");
         domains.add("moakt.com");
@@ -6689,6 +6627,7 @@ public final class DomainsData {
         domains.add("moeri.org");
         domains.add("mofu.be");
         domains.add("mohammed.com");
+        domains.add("mohemil.com");
         domains.add("mohmal.com");
         domains.add("mohmal.im");
         domains.add("mohmal.in");
@@ -6710,11 +6649,13 @@ public final class DomainsData {
         domains.add("monadi.ml");
         domains.add("monchu.fr");
         domains.add("moncourrier.fr.nf");
+        domains.add("monday29.buzz");
         domains.add("mondial.asso.st");
         domains.add("monemail.com");
         domains.add("monemail.fr.nf");
         domains.add("money.net");
         domains.add("moneypipe.net");
+        domains.add("monglung.space");
         domains.add("mongrec.top");
         domains.add("monmail.fr.nf");
         domains.add("monomoho.site");
@@ -6731,6 +6672,7 @@ public final class DomainsData {
         domains.add("moot.es");
         domains.add("mopera.net");
         domains.add("mor19.uu.gl");
+        domains.add("mora45ktil.io.vn");
         domains.add("moreawesomethanyou.com");
         domains.add("moreorcs.com");
         domains.add("morriesworld.ml");
@@ -6745,6 +6687,7 @@ public final class DomainsData {
         domains.add("motormania.com");
         domains.add("mountainregionallibrary.net");
         domains.add("movemail.com");
+        domains.add("moviebr.com");
         domains.add("movieluver.com");
         domains.add("mowline.com");
         domains.add("mox.pp.ua");
@@ -6758,7 +6701,6 @@ public final class DomainsData {
         domains.add("mr-email.fr.nf");
         domains.add("mr-potatohead.com");
         domains.add("mr24.co");
-        domains.add("mrip.top");
         domains.add("mriscan.live");
         domains.add("mriscanner.live");
         domains.add("mrotzis.com");
@@ -6784,8 +6726,10 @@ public final class DomainsData {
         domains.add("mt2016.com");
         domains.add("mtmdev.com");
         domains.add("mttestdriver.com");
+        domains.add("mtupu.com");
         domains.add("muadaingan.com");
         domains.add("muathegame.com");
+        domains.add("mucate.com");
         domains.add("muchomail.com");
         domains.add("mucincanon.com");
         domains.add("muehlacker.tk");
@@ -6821,7 +6765,6 @@ public final class DomainsData {
         domains.add("mwarner.org");
         domains.add("mxclip.com");
         domains.add("mxfuel.com");
-        domains.add("mxmv.top");
         domains.add("mxvia.com");
         domains.add("my-pomsies.ru");
         domains.add("my-teddyy.ru");
@@ -6877,6 +6820,7 @@ public final class DomainsData {
         domains.add("mypethealh.com");
         domains.add("myphantomemail.com");
         domains.add("myplace.com");
+        domains.add("mypucm.com");
         domains.add("myrambler.ru");
         domains.add("myrealbox.com");
         domains.add("myremarq.com");
@@ -6894,6 +6838,7 @@ public final class DomainsData {
         domains.add("mytemp.email");
         domains.add("mytempemail.com");
         domains.add("mytempmail.com");
+        domains.add("mytempmail.org");
         domains.add("mythirdage.com");
         domains.add("mytrashmail.com");
         domains.add("mywarnernet.net");
@@ -6904,7 +6849,6 @@ public final class DomainsData {
         domains.add("mywrld.top");
         domains.add("myzx.com");
         domains.add("mzico.com");
-        domains.add("mzl2wvp6.nsmjj.tech");
         domains.add("n1nja.org");
         domains.add("n1wy.cegll.site");
         domains.add("n2.com");
@@ -6913,10 +6857,8 @@ public final class DomainsData {
         domains.add("n2mail.com");
         domains.add("n2soccer.com");
         domains.add("n2software.com");
-        domains.add("n5.jesys.net");
         domains.add("n5xr.cegll.site");
         domains.add("n8.gs");
-        domains.add("n8la.cegll.site");
         domains.add("na-cat.com");
         domains.add("naah.ru");
         domains.add("naah.store");
@@ -6927,24 +6869,23 @@ public final class DomainsData {
         domains.add("nada.ltd");
         domains.add("nafe.com");
         domains.add("nagi.be");
-        domains.add("nagisa.eu.cc");
         domains.add("nagpal.net");
+        domains.add("naju.waroengmail.com");
         domains.add("naka.edu.pl");
         domains.add("nakedgreens.com");
         domains.add("nakedtruth.biz");
+        domains.add("nam2002.site");
         domains.add("name.com");
         domains.add("namenan.me");
         domains.add("nameplanet.com");
         domains.add("namewok.com");
         domains.add("nanana.uk");
-        domains.add("nandhinipandian.com");
         domains.add("nandomail.com");
         domains.add("nanonym.ch");
         domains.add("nanopools.info");
         domains.add("naobk.com");
         domains.add("naplesnews.net");
         domains.add("naqulu.com");
-        domains.add("naraka.eu.cc");
         domains.add("narsub.online");
         domains.add("narsub.shop");
         domains.add("naseej.com");
@@ -6972,15 +6913,14 @@ public final class DomainsData {
         domains.add("nc.rr.com");
         domains.add("nchoicemail.com");
         domains.add("ncien.com");
-        domains.add("ncyc7b.2026157.xyz");
         domains.add("necub.com");
         domains.add("neeva.net");
         domains.add("negated.com");
         domains.add("neghtlefi.com");
-        domains.add("neho.grok-mail.co");
         domains.add("neko2.net");
         domains.add("nekochan.fr");
         domains.add("nekosan.uk");
+        domains.add("nemomo.org");
         domains.add("nemra1.com");
         domains.add("nenter.com");
         domains.add("neo.rr.com");
@@ -6994,7 +6934,6 @@ public final class DomainsData {
         domains.add("nespf.com");
         domains.add("nespj.com");
         domains.add("nespressopixie.com");
-        domains.add("nestledmail.com");
         domains.add("net-c.be");
         domains.add("net-c.ca");
         domains.add("net-c.cat");
@@ -7050,9 +6989,6 @@ public final class DomainsData {
         domains.add("netsquare.com");
         domains.add("netster.com");
         domains.add("nettaxi.com");
-    }
-
-    private static void addBatch7(Set<String> domains) {
         domains.add("nettemail.com");
         domains.add("netterchef.de");
         domains.add("netti.fi");
@@ -7062,7 +6998,6 @@ public final class DomainsData {
         domains.add("netzidiot.de");
         domains.add("neue-dateien.de");
         domains.add("neuro.md");
-        domains.add("neverlose.eu.cc");
         domains.add("nevermail.de");
         domains.add("newaddr.com");
         domains.add("newbpotato.tk");
@@ -7074,12 +7009,13 @@ public final class DomainsData {
         domains.add("newmail.net");
         domains.add("newmail.ru");
         domains.add("newmail.top");
+        domains.add("newmano.store");
         domains.add("newsboysmail.com");
         domains.add("newtrea.com");
         domains.add("newyork.com");
         domains.add("newyork.io.vn");
         domains.add("nexafilm.com");
-        domains.add("nexaroid.mom");
+        domains.add("nexosphere.lifestyle");
         domains.add("next.ovh");
         domains.add("nextmail.info");
         domains.add("nextmail.ru");
@@ -7094,6 +7030,7 @@ public final class DomainsData {
         domains.add("nfmail.com");
         domains.add("nghienplus.io.vn");
         domains.add("nghienplus.store");
+        domains.add("nghimmo.io.vn");
         domains.add("nguyenusedcars.com");
         domains.add("nh3.ro");
         domains.add("nhienpv1.io.vn");
@@ -7104,15 +7041,18 @@ public final class DomainsData {
         domains.add("nicebush.com");
         domains.add("nicegal.com");
         domains.add("nicemail.cc");
+        domains.add("niceminute.com");
         domains.add("nicholastse.net");
         domains.add("nick-ao.com");
         domains.add("nickmxh.com");
         domains.add("nicknassar.com");
         domains.add("nicolastse.com");
-        domains.add("nicolegonz94.buzz");
         domains.add("nifty.com");
         domains.add("nifty.ne.jp");
         domains.add("nightmail.com");
+    }
+
+    private static void addBatch7(Set<String> domains) {
         domains.add("nightorb.com");
         domains.add("nik.edu.pl");
         domains.add("nikopage.com");
@@ -7126,14 +7066,13 @@ public final class DomainsData {
         domains.add("nirvanafan.com");
         domains.add("niseko.be");
         domains.add("niwl.net");
-        domains.add("nkas.top");
+        domains.add("njwzzvmtin.my");
         domains.add("nm123.com");
         domains.add("nm7.cc");
         domains.add("nmail.cf");
         domains.add("nnh.com");
         domains.add("nnot.net");
         domains.add("nnoway.ru");
-        domains.add("nnzcj.bbroot.com");
         domains.add("no-spam.ws");
         domains.add("no-trash.ru");
         domains.add("no-ux.com");
@@ -7175,6 +7114,7 @@ public final class DomainsData {
         domains.add("noref.in");
         domains.add("noreply.fr");
         domains.add("nori24.tv");
+        domains.add("noriina.shop");
         domains.add("norika-fujiwara.com");
         domains.add("norikomail.com");
         domains.add("norseforce.com");
@@ -7187,6 +7127,7 @@ public final class DomainsData {
         domains.add("nospamfor.us");
         domains.add("nospammail.net");
         domains.add("nospamthanks.info");
+        domains.add("nosubcriber.shop");
         domains.add("notboxletters.com");
         domains.add("nothingtoseehere.ca");
         domains.add("notif.me");
@@ -7196,7 +7137,7 @@ public final class DomainsData {
         domains.add("notrnailinator.com");
         domains.add("notsharingmy.info");
         domains.add("novaemail.com");
-        domains.add("now-sohusports.com");
+        domains.add("novasub.click");
         domains.add("now.im");
         domains.add("nowhere.org");
         domains.add("nowmymail.com");
@@ -7204,7 +7145,6 @@ public final class DomainsData {
         domains.add("nownuri.net");
         domains.add("noyavip.com");
         domains.add("noyp.fr.nf");
-        domains.add("npoazlx.info");
         domains.add("nproxi.com");
         domains.add("nqmo.com");
         domains.add("nrehi.com");
@@ -7219,7 +7159,6 @@ public final class DomainsData {
         domains.add("ntscan.com");
         domains.add("nubescontrol.com");
         domains.add("nucleant.org");
-        domains.add("nuclene.com");
         domains.add("nuitx.com");
         domains.add("null.net");
         domains.add("nullbox.info");
@@ -7232,6 +7171,7 @@ public final class DomainsData {
         domains.add("nutpa.net");
         domains.add("nuts2trade.com");
         domains.add("nvhrw.com");
+        domains.add("nvqt304.xyz");
         domains.add("nwldx.com");
         domains.add("nwytg.com");
         domains.add("nwytg.net");
@@ -7252,21 +7192,20 @@ public final class DomainsData {
         domains.add("o2.co.uk");
         domains.add("o2stk.org");
         domains.add("o3tw.cegll.site");
-        domains.add("o4tw.cegll.site");
         domains.add("o5dw.cegll.site");
         domains.add("o7i.net");
-        domains.add("o8tx.cegll.site");
-        domains.add("oaifree.ai6.me");
         domains.add("oaklandas-fan.com");
         domains.add("oakon.com");
         domains.add("oalsp.com");
         domains.add("oath.com");
+        domains.add("oaxn.waroengmail.com");
         domains.add("obfusko.com");
         domains.add("objectmail.com");
         domains.add("obobbo.com");
         domains.add("oborudovanieizturcii.ru");
         domains.add("obxpestcontrol.com");
         domains.add("oceanfree.net");
+        domains.add("oceanz.tech");
         domains.add("ocn.ne.jp");
         domains.add("octovie.com");
         domains.add("odaymail.com");
@@ -7280,7 +7219,6 @@ public final class DomainsData {
         domains.add("oepia.com");
         domains.add("oeralb.com");
         domains.add("oerpub.org");
-        domains.add("oewc.top");
         domains.add("ofanda.com");
         domains.add("office-dateien.de");
         domains.add("office-email.com");
@@ -7303,6 +7241,7 @@ public final class DomainsData {
         domains.add("okhuman.com");
         domains.add("okiae.com");
         domains.add("okinawa.li");
+        domains.add("okk.dpdns.org");
         domains.add("okmad.com");
         domains.add("okmagic.com");
         domains.add("okname.net");
@@ -7316,6 +7255,7 @@ public final class DomainsData {
         domains.add("ole.com");
         domains.add("olemail.com");
         domains.add("oletters.com");
+        domains.add("olikaza.my.id");
         domains.add("olimp-case.ru");
         domains.add("oliviadiffuser.store");
         domains.add("oloh.ru");
@@ -7328,6 +7268,7 @@ public final class DomainsData {
         domains.add("omarnasrrr.com");
         domains.add("omen.ru");
         domains.add("omfg.run");
+        domains.add("omgheels.com");
         domains.add("omnievents.org");
         domains.add("omtecha.com");
         domains.add("onbap.com");
@@ -7401,6 +7342,7 @@ public final class DomainsData {
         domains.add("ordinaryamerican.net");
         domains.add("ordite.com");
         domains.add("oreidresume.com");
+        domains.add("oremal.com");
         domains.add("orgmail.net");
         domains.add("orgmbx.cc");
         domains.add("oroki.de");
@@ -7411,22 +7353,24 @@ public final class DomainsData {
         domains.add("oscarluna.site");
         domains.add("oscarluna.xyz");
         domains.add("oshietechan.link");
+        domains.add("osifixtech.com.mx");
         domains.add("osite.com.br");
         domains.add("oskarstalbergcitygenerator.com");
         domains.add("oso.com");
         domains.add("ostahie.com");
         domains.add("ostinmail.com");
-        domains.add("osuzu.eu.cc");
         domains.add("osxofulk.com");
         domains.add("otakumail.com");
         domains.add("otherinbox.com");
         domains.add("otmail.jp");
         domains.add("otona.uk");
+        domains.add("otpku.com");
         domains.add("our-computer.com");
         domains.add("our-office.com");
         domains.add("our.st");
         domains.add("ourbrisbane.com");
         domains.add("ourklips.com");
+        domains.add("ourl.me");
         domains.add("ournet.md");
         domains.add("ourpreviewdomain.com");
         domains.add("outgun.com");
@@ -7489,7 +7433,6 @@ public final class DomainsData {
         domains.add("p-aac.top");
         domains.add("p-banlis.ru");
         domains.add("p-ttz.top");
-        domains.add("p1aintiff.qzz.io");
         domains.add("p1wc.cegll.site");
         domains.add("p2dk.cegll.site");
         domains.add("p33.org");
@@ -7513,6 +7456,7 @@ public final class DomainsData {
         domains.add("pakistanoye.com");
         domains.add("palestinemail.com");
         domains.add("paliospiti.com");
+        domains.add("paman.tech");
         domains.add("pamaweb.com");
         domains.add("pamil.fr.nf");
         domains.add("pancakemail.com");
@@ -7532,6 +7476,7 @@ public final class DomainsData {
         domains.add("partyheld.de");
         domains.add("partynight.at");
         domains.add("parvazi.com");
+        domains.add("passeone.com");
         domains.add("passwordmail.com");
         domains.add("pastebitch.com");
         domains.add("pastryofistanbul.com");
@@ -7545,15 +7490,13 @@ public final class DomainsData {
         domains.add("payspun.com");
         domains.add("pazard.com");
         domains.add("pazuric.com");
-        domains.add("pbgmlzez.top");
+        domains.add("pbhak.dev");
         domains.add("pckage.com");
-        domains.add("pcmu.waroengmail.com");
         domains.add("pconnections.net");
         domains.add("pcpostal.com");
         domains.add("pcsrock.com");
         domains.add("pcusers.otherinbox.com");
         domains.add("pdf-cutter.com");
-        domains.add("pdvs.top");
         domains.add("pdx.ne.jp");
         domains.add("pe.hu");
         domains.add("peakinbox.net");
@@ -7561,6 +7504,7 @@ public final class DomainsData {
         domains.add("pecinan.net");
         domains.add("pecinan.org");
         domains.add("pediatrician.com");
+        domains.add("pelviro.sbs");
         domains.add("penisgoes.in");
         domains.add("penoto.tk");
         domains.add("penpen.com");
@@ -7588,6 +7532,7 @@ public final class DomainsData {
         domains.add("phamay.com");
         domains.add("phanmembanhang24h.com");
         domains.add("phayze.com");
+        domains.add("phctool.com");
         domains.add("philipdowney.com");
         domains.add("phimib.com");
         domains.add("phmail.site");
@@ -7600,7 +7545,6 @@ public final class DomainsData {
         domains.add("phpbb.uu.gl");
         domains.add("phreaker.net");
         domains.add("phucmmo.com");
-        domains.add("phugruphy.com");
         domains.add("phus8kajuspa.cu.cc");
         domains.add("phuturemail.com");
         domains.add("phyones.com");
@@ -7610,9 +7554,7 @@ public final class DomainsData {
         domains.add("pi.vu");
         domains.add("piaa.me");
         domains.add("pianomail.com");
-        domains.add("pibox.cloud");
         domains.add("picdirect.net");
-        domains.add("pickmail.org");
         domains.add("pickuplanet.com");
         domains.add("pickupman.com");
         domains.add("picusnet.com");
@@ -7623,10 +7565,10 @@ public final class DomainsData {
         domains.add("pikara.ne.jp");
         domains.add("piki.si");
         domains.add("pimpedupmyspace.com");
+        domains.add("pindush.net");
         domains.add("pinehill-seattle.org");
         domains.add("pingddns.net");
         domains.add("pingir.com");
-        domains.add("pingmx.com");
         domains.add("pinkgreengenerator.me");
         domains.add("pinmx.net");
         domains.add("pinoymail.com");
@@ -7640,13 +7582,14 @@ public final class DomainsData {
         domains.add("pithu.org");
         domains.add("pitiful.pp.ua");
         domains.add("pivo-bar.ru");
+        domains.add("piwo.waroengmail.com");
         domains.add("pixdd.com");
         domains.add("pixelgagnant.net");
         domains.add("pixiil.com");
         domains.add("pixoledge.net");
-        domains.add("piza.grok-mail.co");
         domains.add("pizu.ru");
         domains.add("pizu.store");
+        domains.add("pizuhdev.work");
         domains.add("pizzajunk.com");
         domains.add("pjjkp.com");
         domains.add("placebomail10.com");
@@ -7670,11 +7613,14 @@ public final class DomainsData {
         domains.add("ploae.com");
         domains.add("ploki.fr");
         domains.add("ploncy.com");
+        domains.add("ploveqmail.com");
+        domains.add("plowcreek.org");
         domains.add("plus.com");
         domains.add("plus.google.com");
         domains.add("plusmail.com.br");
         domains.add("plw.me");
         domains.add("pm.me");
+        domains.add("pmail.asia");
         domains.add("pmail.net");
         domains.add("pmail.site");
         domains.add("pmdeal.com");
@@ -7707,7 +7653,6 @@ public final class DomainsData {
         domains.add("polyfaust.net");
         domains.add("pongpong.org");
         domains.add("ponp.be");
-        domains.add("poo.email");
         domains.add("pooae.com");
         domains.add("poofy.org");
         domains.add("pookmail.com");
@@ -7765,6 +7710,7 @@ public final class DomainsData {
         domains.add("postmaster.twitter.com");
         domains.add("postonline.me");
         domains.add("postpro.net");
+        domains.add("posu.kaptencpl.com");
         domains.add("poubelle-du.net");
         domains.add("poubelle.fr.nf");
         domains.add("pousa.com");
@@ -7775,6 +7721,7 @@ public final class DomainsData {
         domains.add("powerscrews.com");
         domains.add("powlearn.com");
         domains.add("pox2.com");
+        domains.add("pozima.rest");
         domains.add("pp.inet.fi");
         domains.add("pp7rvv.com");
         domains.add("ppetw.com");
@@ -7829,7 +7776,9 @@ public final class DomainsData {
         domains.add("priyp.com");
         domains.add("pro-tag.org");
         domains.add("pro.hu");
+        domains.add("pro10.streamtv.biz.id");
         domains.add("pro5g.com");
+        domains.add("pro95.streamtv.biz.id");
         domains.add("probemail.com");
         domains.add("procrackers.com");
         domains.add("prodigy.net");
@@ -7871,7 +7820,6 @@ public final class DomainsData {
         domains.add("psv-supporter.com");
         domains.add("ptct.net");
         domains.add("ptd.net");
-        domains.add("ptgtfac.sbs");
         domains.add("ptsculure.com");
         domains.add("puabook.com");
         domains.add("public-files.de");
@@ -7885,6 +7833,7 @@ public final class DomainsData {
         domains.add("puppetmail.de");
         domains.add("purcell.email");
         domains.add("purelogistics.org");
+        domains.add("puro.waroengin.com");
         domains.add("purpleturtle.com");
         domains.add("pursip.com");
         domains.add("push.tg");
@@ -7894,6 +7843,7 @@ public final class DomainsData {
         domains.add("put2.net");
         domains.add("puttanamaiala.tk");
         domains.add("putthisinyourspamdatabase.com");
+        domains.add("pvnmax.space");
         domains.add("pwpwa.com");
         domains.add("pwrby.com");
         domains.add("pxlys.com");
@@ -7904,13 +7854,12 @@ public final class DomainsData {
         domains.add("q9vf.cegll.site");
         domains.add("qabq.com");
         domains.add("qacmjeq.com");
-        domains.add("qamlykl.info");
         domains.add("qasti.com");
         domains.add("qatarmail.com");
         domains.add("qbfree.us");
         domains.add("qc.to");
+        domains.add("qd28max.eu.cc");
         domains.add("qejjyl.com");
-        domains.add("qgming.qzz.io");
         domains.add("qibl.at");
         domains.add("qiott.com");
         domains.add("qipmail.net");
@@ -7933,10 +7882,11 @@ public final class DomainsData {
         domains.add("quakemail.com");
         domains.add("qualityservice.com");
         domains.add("quantentunnel.de");
-        domains.add("qudone.net");
+        domains.add("quantumpathkazue.tech");
         domains.add("qudsmail.com");
         domains.add("quepasa.com");
         domains.add("questtechsystems.com");
+        domains.add("qufe.kaptencpl.com");
         domains.add("quick-mail.cc");
         domains.add("quickemail.info");
         domains.add("quickhosts.com");
@@ -7952,20 +7902,16 @@ public final class DomainsData {
         domains.add("quinz.me");
         domains.add("quipas.com");
         domains.add("ququb.com");
-        domains.add("qv6cp4.bot.cd");
         domains.add("qv7.info");
         domains.add("qvmao.com");
         domains.add("qvttclass.us");
         domains.add("qvy.me");
-        domains.add("qwer.729406.xyz");
         domains.add("qwest.net");
         domains.add("qwestoffice.net");
         domains.add("qwickmail.com");
         domains.add("qzueos.com");
         domains.add("r-o-o-t.com");
         domains.add("r1xp.cegll.site");
-        domains.add("r3xp.cegll.site");
-        domains.add("r4.sdfe.app");
         domains.add("r4nd0m.de");
         domains.add("r5xq.cegll.site");
         domains.add("r7hd.cegll.site");
@@ -7984,6 +7930,7 @@ public final class DomainsData {
         domains.add("radicalz.com");
         domains.add("radiku.ye.vc");
         domains.add("radiologist.net");
+        domains.add("rado.kaptencpl.com");
         domains.add("rael.us");
         domains.add("raetp9.com");
         domains.add("ragingbull.com");
@@ -8008,11 +7955,11 @@ public final class DomainsData {
         domains.add("rapidefr.fr.nf");
         domains.add("rapt.be");
         domains.add("raqid.com");
-        domains.add("rashamknitwears.com");
         domains.add("rastogi.net");
         domains.add("ratt-n-roll.com");
         domains.add("rattle-snake.com");
         domains.add("raubtierbaendiger.de");
+        domains.add("ravavo.bond");
         domains.add("ravearena.com");
         domains.add("ravemail.com");
         domains.add("rawr.foo");
@@ -8042,10 +7989,12 @@ public final class DomainsData {
         domains.add("realradiomail.com");
         domains.add("realtyagent.com");
         domains.add("realtyalerts.ca");
+        domains.add("reapsa.com");
         domains.add("rebates.stream");
         domains.add("reborn.com");
         domains.add("receiveee.com");
         domains.add("recipeforfailure.com");
+        domains.add("reclameaqui.services");
         domains.add("recode.me");
         domains.add("reconmail.com");
         domains.add("recyclemail.dk");
@@ -8053,9 +8002,6 @@ public final class DomainsData {
         domains.add("recyclermail.com");
         domains.add("redfeathercrow.com");
         domains.add("redi.fr.nf");
-    }
-
-    private static void addBatch8(Set<String> domains) {
         domains.add("rediff.com");
         domains.add("rediffmail.com");
         domains.add("rediffmailpro.com");
@@ -8078,6 +8024,7 @@ public final class DomainsData {
         domains.add("religious.com");
         domains.add("remail.cf");
         domains.add("remail.ga");
+        domains.add("remaild.com");
         domains.add("remarkable.rocks");
         domains.add("remote.li");
         domains.add("renren.com");
@@ -8106,6 +8053,9 @@ public final class DomainsData {
         domains.add("richfinances.pw");
         domains.add("richmondhill.com");
         domains.add("rickymail.com");
+    }
+
+    private static void addBatch8(Set<String> domains) {
         domains.add("riddermark.de");
         domains.add("rifkian.ga");
         domains.add("rimshacooking.site");
@@ -8118,6 +8068,8 @@ public final class DomainsData {
         domains.add("risu.be");
         domains.add("rklips.com");
         domains.add("rkomo.com");
+        domains.add("rkqc.waroengmail.com");
+        domains.add("rkwvh.blasis.io.vn");
         domains.add("rm2rf.com");
         domains.add("rma.ec");
         domains.add("rmqkr.net");
@@ -8138,7 +8090,6 @@ public final class DomainsData {
         domains.add("rodrun.com");
         domains.add("rogers.com");
         domains.add("roguemaster.dev");
-        domains.add("roko.grok-mail.co");
         domains.add("rollindo.agency");
         domains.add("rome.com");
         domains.add("ronete.com");
@@ -8166,10 +8117,8 @@ public final class DomainsData {
         domains.add("rr.com");
         domains.add("rr.nu");
         domains.add("rrohio.com");
-        domains.add("rs.sdfe.app");
         domains.add("rsub.com");
         domains.add("rsvhr.com");
-        domains.add("rt.jesys.net");
         domains.add("rteet.com");
         domains.add("rtrtr.com");
         domains.add("rtskiya.xyz");
@@ -8177,6 +8126,7 @@ public final class DomainsData {
         domains.add("rudymail.ml");
         domains.add("rulersonline.com");
         domains.add("rumahpremium.com");
+        domains.add("rumahweb.site");
         domains.add("rumgel.com");
         domains.add("runbox.com");
         domains.add("runi.ca");
@@ -8192,7 +8142,7 @@ public final class DomainsData {
         domains.add("rvshop.com");
         domains.add("rwstatus.com");
         domains.add("rygel.infos.st");
-        domains.add("rymtool.eu.cc");
+        domains.add("ryow.waroengmail.com");
         domains.add("ryteto.me");
         domains.add("ryyr.ru");
         domains.add("ryyr.store");
@@ -8203,8 +8153,6 @@ public final class DomainsData {
         domains.add("s33db0x.com");
         domains.add("s3hn.cegll.site");
         domains.add("s3k.net");
-        domains.add("s6kp.cegll.site");
-        domains.add("s9qn.cegll.site");
         domains.add("sabreshockey.com");
         domains.add("sabrestlouis.com");
         domains.add("sacbeemail.com");
@@ -8226,6 +8174,7 @@ public final class DomainsData {
         domains.add("sailormoon.com");
         domains.add("saintly.com");
         domains.add("saintmail.net");
+        domains.add("saisonhama.shop");
         domains.add("sajutadollars.com");
         domains.add("sale-sale-sale.com");
         domains.add("salehi.net");
@@ -8249,12 +8198,15 @@ public final class DomainsData {
         domains.add("sanstr.com");
         domains.add("sapo.pt");
         domains.add("sast.ro");
+        domains.add("sasukiez.shop");
         domains.add("satisfyme.club");
         domains.add("satukosong.com");
         domains.add("saudia.com");
         domains.add("sausen.com");
+        domains.add("savdz.com");
         domains.add("savelife.ml");
         domains.add("savests.com");
+        domains.add("savi.kaptencpl.com");
         domains.add("say0.com");
         domains.add("sayhi.net");
         domains.add("saynotospams.com");
@@ -8314,9 +8266,9 @@ public final class DomainsData {
         domains.add("seekapps.com");
         domains.add("seekjobs4u.com");
         domains.add("seekstoyboy.com");
+        domains.add("seelctedaz.tech");
         domains.add("seguros.com.br");
         domains.add("sehier.fr");
-        domains.add("seho.waroengmail.com");
         domains.add("sejaa.lv");
         domains.add("selaciptama.com");
         domains.add("seler25k.io.vn");
@@ -8340,6 +8292,7 @@ public final class DomainsData {
         domains.add("sent.at");
         domains.add("sent.com");
         domains.add("sentrismail.com");
+        domains.add("seolaner.com");
         domains.add("seosnaps.com");
         domains.add("seqerc.com");
         domains.add("serga.com.ar");
@@ -8357,7 +8310,6 @@ public final class DomainsData {
         domains.add("sexyalwasmi.top");
         domains.add("seznam.cz");
         domains.add("sfolkar.com");
-        domains.add("sfsfdsrfe24242.eu.cc");
         domains.add("sgatra.com");
         domains.add("sgm.ovh");
         domains.add("shadap.org");
@@ -8401,10 +8353,14 @@ public final class DomainsData {
         domains.add("shmeriously.com");
         domains.add("shockinmytown.cu.cc");
         domains.add("shootmail.com");
+        domains.add("shopempva11.com");
+        domains.add("shopld.linkpc.net");
+        domains.add("shopvipduzk666.shop");
         domains.add("shopxda.com");
+        domains.add("shortapk.com");
+        domains.add("shortenmail.com");
         domains.add("shortmail.com");
         domains.add("shortmail.net");
-        domains.add("shortsbermudashomme.com");
         domains.add("shotgun.hu");
         domains.add("shotmail.ru");
         domains.add("showslow.de");
@@ -8432,6 +8388,7 @@ public final class DomainsData {
         domains.add("silvercoin.life");
         domains.add("sim-simka.ru");
         domains.add("simaenaga.com");
+        domains.add("simoka.sbs");
         domains.add("simpleitsecurity.info");
         domains.add("simranaitech.space");
         domains.add("sin.cl");
@@ -8501,7 +8458,6 @@ public final class DomainsData {
         domains.add("smapfree24.info");
         domains.add("smapfree24.org");
         domains.add("smapxsmap.net");
-        domains.add("smarfren.tech");
         domains.add("smartemailbox.co");
         domains.add("smartnator.com");
         domains.add("smarttalent.pw");
@@ -8517,9 +8473,9 @@ public final class DomainsData {
         domains.add("smoothmail.com");
         domains.add("sms.at");
         domains.add("smtp99.com");
+        domains.add("smtsa.xyz");
         domains.add("smwg.info");
         domains.add("smykwb.com");
-        domains.add("sn6fk3.nsmjj.tech");
         domains.add("snail-mail.net");
         domains.add("snakebite.com");
         domains.add("snakebutt.com");
@@ -8540,6 +8496,7 @@ public final class DomainsData {
         domains.add("snowboarding.com");
         domains.add("snowdonia.net");
         domains.add("snowlash.com");
+        domains.add("snpmail.fun");
         domains.add("so-net.ne.jp");
         domains.add("soai.edu.kg");
         domains.add("soc123.net");
@@ -8562,6 +8519,7 @@ public final class DomainsData {
         domains.add("softbank.ne.jp");
         domains.add("softhome.net");
         domains.add("softkey-office.ru");
+        domains.add("softlitceg.com");
         domains.add("softpls.asia");
         domains.add("sogetthis.com");
         domains.add("sogou.com");
@@ -8679,7 +8637,7 @@ public final class DomainsData {
         domains.add("spammy.host");
         domains.add("spamobox.com");
         domains.add("spamoff.de");
-        domains.add("spamok.com");
+        domains.add("spamok.nl");
         domains.add("spamsalad.in");
         domains.add("spamsandwich.com");
         domains.add("spamslicer.com");
@@ -8699,6 +8657,7 @@ public final class DomainsData {
         domains.add("sparkletoc.com");
         domains.add("spartapiet.com");
         domains.add("spazmail.com");
+        domains.add("speedbytekaito.space");
         domains.add("speedemail.net");
         domains.add("speedgaus.net");
         domains.add("speedpost.net");
@@ -8736,8 +8695,8 @@ public final class DomainsData {
         domains.add("sraka.xyz");
         domains.add("srilankan.net");
         domains.add("sroff.com");
-        domains.add("srpnlz.shop");
         domains.add("sry.li");
+        domains.add("ssgperf.com");
         domains.add("ssi-bsn.infos.st");
         domains.add("sskaid.com");
         domains.add("ssl-mail.com");
@@ -8748,12 +8707,14 @@ public final class DomainsData {
         domains.add("stade.fr");
         domains.add("stalag13.com");
         domains.add("stanfordujjain.com");
+        domains.add("stargatebase.space");
         domains.add("stargateradio.com");
         domains.add("starlight-breaker.net");
         domains.add("starmail.com");
         domains.add("starmail.net");
         domains.add("starmail.org");
         domains.add("starmedia.com");
+        domains.add("starnlink.com");
         domains.add("starplace.com");
         domains.add("starpower.space");
         domains.add("starspath.com");
@@ -8766,6 +8727,7 @@ public final class DomainsData {
         domains.add("stayhome.li");
         domains.add("steam-area.ru");
         domains.add("steambot.net");
+        domains.add("steel4work.io.vn");
         domains.add("stexsy.com");
         domains.add("stinkefinger.net");
         domains.add("stipte.nl");
@@ -8786,9 +8748,11 @@ public final class DomainsData {
         domains.add("storj99.top");
         domains.add("storksite.com");
         domains.add("strayhood.org");
+        domains.add("streamingku.live");
         domains.add("streber24.de");
         domains.add("streetwisemail.com");
         domains.add("stribmail.com");
+        domains.add("strombusmail.com");
         domains.add("stromox.com");
         domains.add("strompost.com");
         domains.add("strongguy.com");
@@ -8829,6 +8793,7 @@ public final class DomainsData {
         domains.add("sunpoint.net");
         domains.add("sunrise-sunset.com");
         domains.add("sunsgame.com");
+        domains.add("suntuy.com");
         domains.add("sunumail.sn");
         domains.add("suomi24.fi");
         domains.add("super-auswahl.de");
@@ -8850,6 +8815,7 @@ public final class DomainsData {
         domains.add("supersave.net");
         domains.add("superstachel.de");
         domains.add("superyp.com");
+        domains.add("supplyapp23.biz.id");
         domains.add("supporttc.com");
         domains.add("surat.com");
         domains.add("suremail.info");
@@ -8888,6 +8854,7 @@ public final class DomainsData {
         domains.add("switzerland.org");
         domains.add("swsdz.com");
         domains.add("sx172.com");
+        domains.add("sybilproxy.com");
         domains.add("syinxun.com");
         domains.add("sylvannet.com");
         domains.add("symphonyresume.com");
@@ -8902,10 +8869,8 @@ public final class DomainsData {
         domains.add("t-online.de");
         domains.add("t.psh.me");
         domains.add("t2mail.com");
-        domains.add("t4vn.cegll.site");
         domains.add("t5dk.cegll.site");
         domains.add("t6yr.cegll.site");
-        domains.add("t9hy.cegll.site");
         domains.add("tacomail.de");
         domains.add("tafmail.com");
         domains.add("tafoi.gr");
@@ -8971,7 +8936,6 @@ public final class DomainsData {
         domains.add("techscout.com");
         domains.add("techspot.com");
         domains.add("techusa.org");
-        domains.add("tedi.grok-mail.co");
         domains.add("teenagedirtbag.com");
         domains.add("teerest.com");
         domains.add("teewars.org");
@@ -9010,6 +8974,7 @@ public final class DomainsData {
         domains.add("temp-mail.de");
         domains.add("temp-mail.gg");
         domains.add("temp-mail.lol");
+        domains.add("temp-mail.me");
         domains.add("temp-mail.now");
         domains.add("temp-mail.org");
         domains.add("temp-mail.pp.ua");
@@ -9020,7 +8985,6 @@ public final class DomainsData {
         domains.add("temp.ly");
         domains.add("temp.now");
         domains.add("temp.skymeshdynamics.com");
-        domains.add("temp2.qzz.io");
         domains.add("tempail.com");
         domains.add("tempalias.com");
         domains.add("tempblockchain.com");
@@ -9056,12 +9020,10 @@ public final class DomainsData {
         domains.add("tempmail.us");
         domains.add("tempmail.vip");
         domains.add("tempmail.world");
-    }
-
-    private static void addBatch9(Set<String> domains) {
         domains.add("tempmail.ws");
         domains.add("tempmail101.com");
         domains.add("tempmail2.com");
+        domains.add("tempmailapi.io.vn");
         domains.add("tempmaildemo.com");
         domains.add("tempmailer.com");
         domains.add("tempmailer.de");
@@ -9094,10 +9056,14 @@ public final class DomainsData {
         domains.add("temporarymailaddress.com");
         domains.add("tempp-mails.com");
         domains.add("temppppo.store");
+    }
+
+    private static void addBatch9(Set<String> domains) {
         domains.add("tempr.email");
         domains.add("tempsky.com");
         domains.add("temptami.com");
         domains.add("tempthe.net");
+        domains.add("tempxzy.net");
         domains.add("tempymail.com");
         domains.add("tempyx.com");
         domains.add("temtulsa.net");
@@ -9122,14 +9088,15 @@ public final class DomainsData {
         domains.add("testore.co");
         domains.add("testudine.com");
         domains.add("tevstart.com");
+        domains.add("texify.online");
         domains.add("tfanus.com.er");
         domains.add("tfz.net");
         domains.add("tgduck.com");
-        domains.add("tgvis.com");
         domains.add("thai.com");
         domains.add("thaimail.com");
         domains.add("thaimail.net");
         domains.add("thaitudang.xyz");
+        domains.add("thanhnhontienbao.com");
         domains.add("thanksnospam.info");
         domains.add("thankyou2010.com");
         domains.add("thatim.info");
@@ -9256,12 +9223,14 @@ public final class DomainsData {
         domains.add("thisurl.website");
         domains.add("thnikka.com");
         domains.add("thoas.ru");
+        domains.add("thoitrangnam2024.shop");
         domains.add("thraml.com");
         domains.add("thrma.com");
         domains.add("throam.com");
         domains.add("thrott.com");
         domains.add("throwam.com");
         domains.add("throwawayemailaddress.com");
+        domains.add("throwawaymail.app");
         domains.add("throwawaymail.com");
         domains.add("throwawaymail.pp.ua");
         domains.add("throya.com");
@@ -9276,7 +9245,6 @@ public final class DomainsData {
         domains.add("tianmi.me");
         domains.add("tiapz.com");
         domains.add("tic.ec");
-        domains.add("tiding.one");
         domains.add("tidissajiiu.com");
         domains.add("tidni.com");
         domains.add("tiffincrane.com");
@@ -9287,7 +9255,9 @@ public final class DomainsData {
         domains.add("tiktakgrab.com");
         domains.add("tiktakgrab.shop");
         domains.add("tiktakgrabber.com");
+        domains.add("tili.grok-mail.co");
         domains.add("tilien.com");
+        domains.add("tilvex.click");
         domains.add("timein.net");
         domains.add("timgiarevn.com");
         domains.add("timkassouf.com");
@@ -9296,6 +9266,7 @@ public final class DomainsData {
         domains.add("tinytimer.org");
         domains.add("tinyurl24.com");
         domains.add("tipsb.com");
+        domains.add("tirasya.pro");
         domains.add("tiscali.at");
         domains.add("tiscali.be");
         domains.add("tiscali.co.uk");
@@ -9310,12 +9281,8 @@ public final class DomainsData {
         domains.add("tkcity.com");
         domains.add("tkfb24h.com");
         domains.add("tkitc.de");
-        domains.add("tkonu.com");
         domains.add("tlpn.org");
-        domains.add("tm.488448.xyz");
-        domains.add("tm.515666.xyz");
-        domains.add("tm.622221.xyz");
-        domains.add("tm.spkun.org");
+        domains.add("tmail.biz.id");
         domains.add("tmail.com");
         domains.add("tmail.edu.rs");
         domains.add("tmail.gg");
@@ -9368,9 +9335,11 @@ public final class DomainsData {
         domains.add("too.li");
         domains.add("toolbox.ovh");
         domains.add("toolnator.plus");
+        domains.add("toolsmail.me");
         domains.add("toolsource.com");
         domains.add("toomail.biz");
         domains.add("toon.ml");
+        domains.add("toondot.com");
         domains.add("toothfairy.com");
         domains.add("top-shop-tovar.ru");
         domains.add("top101.de");
@@ -9397,6 +9366,7 @@ public final class DomainsData {
         domains.add("torontomail.com");
         domains.add("torrent411.fr.nf");
         domains.add("tortenboxer.de");
+        domains.add("torvila.sbs");
         domains.add("tospage.com");
         domains.add("toss.pw");
         domains.add("tosunkaya.com");
@@ -9415,13 +9385,16 @@ public final class DomainsData {
         domains.add("tppp.one");
         domains.add("tppp.online");
         domains.add("tpwlb.com");
+        domains.add("tq.korgmz.com");
         domains.add("tqoai.com");
         domains.add("tqosi.com");
         domains.add("trackden.com");
         domains.add("tradermail.info");
         domains.add("tranceversal.com");
+        domains.add("trandigabapoe.shop");
         domains.add("trangiabao.click");
         domains.add("trangzim.uk");
+        domains.add("transfrly.io");
         domains.add("translateid.com");
         domains.add("traodoinick.com");
         domains.add("trap-mail.de");
@@ -9461,6 +9434,7 @@ public final class DomainsData {
         domains.add("trashmails.com");
         domains.add("trashymail.com");
         domains.add("trashymail.net");
+        domains.add("trashymails.com");
         domains.add("trasz.com");
         domains.add("travel.li");
         domains.add("travelistaworld.com");
@@ -9475,6 +9449,7 @@ public final class DomainsData {
         domains.add("trialbytrivia.com");
         domains.add("trialmail.de");
         domains.add("trickmail.net");
+        domains.add("triennguyen.com");
         domains.add("trillianpro.com");
         domains.add("trimix.cn");
         domains.add("triots.com");
@@ -9520,12 +9495,14 @@ public final class DomainsData {
         domains.add("turuma.com");
         domains.add("tut.by");
         domains.add("tutuapp.bid");
+        domains.add("tuyenhuy.site");
         domains.add("tvchd.com");
         domains.add("tverya.com");
         domains.add("tvstar.com");
         domains.add("twc.com");
         domains.add("twcny.com");
         domains.add("tweet.fr.nf");
+        domains.add("twilightshiftso.space");
         domains.add("twinmail.de");
         domains.add("twinstarsmail.com");
         domains.add("twitch.work");
@@ -9541,11 +9518,9 @@ public final class DomainsData {
         domains.add("tyhe.ro");
         domains.add("tyldd.com");
         domains.add("tympe.net");
-        domains.add("tynxbzz.com");
         domains.add("typemail.com");
         domains.add("u14269.ml");
         domains.add("u2club.com");
-        domains.add("u2jh.cegll.site");
         domains.add("u3xt.cegll.site");
         domains.add("u4tm.cegll.site");
         domains.add("u7lf.cegll.site");
@@ -9553,7 +9528,6 @@ public final class DomainsData {
         domains.add("uacro.com");
         domains.add("uae.ac");
         domains.add("uaemail.com");
-        domains.add("uaqz.top");
         domains.add("ubbi.com");
         domains.add("ubbi.com.br");
         domains.add("uber-mail.com");
@@ -9564,6 +9538,7 @@ public final class DomainsData {
         domains.add("ucche.us");
         domains.add("ucom.ne.jp");
         domains.add("ucupdong.ml");
+        domains.add("udewz18.jejes.de");
         domains.add("uemail99.com");
         domains.add("ufacturing.com");
         domains.add("ufokeuabmail.com");
@@ -9574,7 +9549,6 @@ public final class DomainsData {
         domains.add("uhhu.ru");
         domains.add("uiemail.com");
         domains.add("uiu.us");
-        domains.add("uivm.top");
         domains.add("ujijima1129.gq");
         domains.add("uk.to");
         domains.add("uk2.net");
@@ -9594,7 +9568,9 @@ public final class DomainsData {
         domains.add("ultapulta.com");
         domains.add("ultra.fyi");
         domains.add("ultrada.ru");
+        domains.add("ultralux.io.vn");
         domains.add("ultrapostman.com");
+        domains.add("ultraz1.io.vn");
         domains.add("uma3.be");
         domains.add("umail.net");
         domains.add("umil.net");
@@ -9611,7 +9587,6 @@ public final class DomainsData {
         domains.add("unids.com");
         domains.add("unihome.com");
         domains.add("unimark.org");
-        domains.add("uniquefox.xyz");
         domains.add("uniromax.com");
         domains.add("unit7lahaina.com");
         domains.add("unitel.co.kr");
@@ -9647,7 +9622,6 @@ public final class DomainsData {
         domains.add("upphim.net");
         domains.add("upsnab.net");
         domains.add("uqmobile.jp");
-        domains.add("urbolife.com");
         domains.add("ureach.com");
         domains.add("urfunktion.se");
         domains.add("urgentmail.biz");
@@ -9677,10 +9651,13 @@ public final class DomainsData {
         domains.add("ushijima1129.tk");
         domains.add("usm.ovh");
         domains.add("usma.net");
+        domains.add("usmail.my.id");
         domains.add("usmc.net");
+        domains.add("ussteel.xyz");
         domains.add("ustorp.com");
         domains.add("uswestmail.net");
         domains.add("utiket.us");
+        domains.add("utpcanva.biz.id");
         domains.add("uu.gl");
         domains.add("uu2.ovh");
         domains.add("uue.edu.pl");
@@ -9694,8 +9671,10 @@ public final class DomainsData {
         domains.add("uz8.net");
         domains.add("v-mail.xyz");
         domains.add("v-sexi.com");
+        domains.add("v1.streamtv.biz.id");
         domains.add("v2jb.cegll.site");
         domains.add("v2proxy.com");
+        domains.add("v3nt4xs.jejes.de");
         domains.add("v6ke.cegll.site");
         domains.add("v8rp.cegll.site");
         domains.add("vaasfc4.tk");
@@ -9709,6 +9688,7 @@ public final class DomainsData {
         domains.add("vankin.de");
         domains.add("vapu.xyz");
         domains.add("varbizmail.com");
+        domains.add("vasonew.com");
         domains.add("vasteron.com");
         domains.add("vaupk.org");
         domains.add("vbv.cards");
@@ -9724,10 +9704,12 @@ public final class DomainsData {
         domains.add("vektoru.com");
         domains.add("velnet.co.uk");
         domains.add("velocall.com");
+        domains.add("velpai.com");
         domains.add("veltexline.com");
         domains.add("vemomail.win");
         domains.add("venompen.com");
         domains.add("veo.kr");
+        domains.add("veomatrix25k.io.vn");
         domains.add("veoverse25k.io.vn");
         domains.add("ver0.cf");
         domains.add("ver0.ga");
@@ -9760,6 +9742,7 @@ public final class DomainsData {
         domains.add("vexi.my");
         domains.add("vfemail.net");
         domains.add("via.tokyo.jp");
+        domains.add("viawoo.com");
         domains.add("vibzi.net");
         domains.add("vickaentb.tk");
         domains.add("victime.ninja");
@@ -9771,6 +9754,7 @@ public final class DomainsData {
         domains.add("videotron.ca");
         domains.add("viditag.com");
         domains.add("vidwobox.com");
+        domains.add("viettravel.io.vn");
         domains.add("viewcastmedia.com");
         domains.add("viewcastmedia.net");
         domains.add("viewcastmedia.org");
@@ -9783,21 +9767,18 @@ public final class DomainsData {
         domains.add("vinakop.com");
         domains.add("vinbazar.com");
         domains.add("vinernet.com");
+        domains.add("vinhdo.shop");
         domains.add("vintomaper.com");
         domains.add("viole.cfd");
         domains.add("violinmakers.co.uk");
         domains.add("vip.126.com");
         domains.add("vip.21cn.com");
-        domains.add("vip.aoko.cc.cd");
-        domains.add("vip.aoko.eu.cc");
-        domains.add("vip.chaldea.eu.cc");
         domains.add("vip.citiz.net");
         domains.add("vip.gr");
-        domains.add("vip.mssk.cc.cd");
-        domains.add("vip.mssk.qzz.io");
         domains.add("vip.onet.pl");
         domains.add("vip.qq.com");
         domains.add("vip.sina.com");
+        domains.add("vip35.tempdukviet.click");
         domains.add("vipepe.com");
         domains.add("vipmail.name");
         domains.add("vipmail.pw");
@@ -9811,7 +9792,6 @@ public final class DomainsData {
         domains.add("virgin.net");
         domains.add("virginbroadband.com.au");
         domains.add("virginmedia.com");
-        domains.add("viri.grok-mail.co");
         domains.add("virtualemail.info");
         domains.add("virtualmail.com");
         domains.add("visal007.tk");
@@ -9825,6 +9805,8 @@ public final class DomainsData {
         domains.add("visitweb.com");
         domains.add("visto.com");
         domains.add("visualcities.com");
+        domains.add("visualdep.run.place");
+        domains.add("visuals.linkpc.net");
         domains.add("vitahicks.com");
         domains.add("vitaspherelife.com");
         domains.add("viv2.com");
@@ -9853,7 +9835,6 @@ public final class DomainsData {
         domains.add("vlrregulatory.com");
         domains.add("vmailing.info");
         domains.add("vmani.com");
-        domains.add("vmm.indevs.in");
         domains.add("vmpanda.com");
         domains.add("vn-one.com");
         domains.add("vncctv.org");
@@ -9905,17 +9886,18 @@ public final class DomainsData {
         domains.add("vuiy.pw");
         domains.add("vuket.org");
         domains.add("vulca.sbs");
+        domains.add("vulo.kaptencpl.com");
         domains.add("vusra.com");
+        domains.add("vutrugay.org");
         domains.add("vvatxiy.com");
         domains.add("vwhins.com");
         domains.add("vxsolar.com");
         domains.add("vztc.com");
         domains.add("w-asertun.ru");
-        domains.add("w2df.cegll.site");
         domains.add("w3.to");
         domains.add("w3hv.cegll.site");
         domains.add("w3internet.co.uk");
-        domains.add("w5xq.cegll.site");
+        domains.add("waci.kaptencpl.com");
         domains.add("wacold.com");
         domains.add("wahoye.com");
         domains.add("waivey.com");
@@ -9932,7 +9914,6 @@ public final class DomainsData {
         domains.add("wanva.shop");
         domains.add("war-im-urlaub.de");
         domains.add("warlus.asso.st");
-        domains.add("warmeta.net");
         domains.add("warmmail.com");
         domains.add("waroengpremium.com");
         domains.add("warpmail.net");
@@ -9949,11 +9930,7 @@ public final class DomainsData {
         domains.add("wbdet.com");
         domains.add("wbdev.tech");
         domains.add("wbml.net");
-        domains.add("wbzqxl.eu.cc");
         domains.add("wcm.ne.jp");
-        domains.add("wcnmd11908.eu.cc");
-        domains.add("wcuu.waroengmail.com");
-        domains.add("wdsm.uno");
         domains.add("wearab.net");
         domains.add("wearkeymail.site");
         domains.add("web-contact.info");
@@ -9965,6 +9942,7 @@ public final class DomainsData {
         domains.add("web-police.com");
         domains.add("web.de");
         domains.add("web2mailco.com");
+        domains.add("web5h.com");
         domains.add("webave.com");
         domains.add("webcammail.com");
         domains.add("webcity.ca");
@@ -9993,9 +9971,9 @@ public final class DomainsData {
         domains.add("webtrip.ch");
         domains.add("webuser.in");
         domains.add("webxio.pro");
+        domains.add("webxios.pro");
         domains.add("wecp.ru");
         domains.add("wecp.store");
-        domains.add("wedwe.eu.cc");
         domains.add("wee.my");
         domains.add("weedmail.com");
         domains.add("weekfly.com");
@@ -10039,17 +10017,16 @@ public final class DomainsData {
         domains.add("wenkuu.com");
         domains.add("wentcity.com");
         domains.add("wep.email");
+        domains.add("westecom.com");
         domains.add("westnet.com");
         domains.add("westnet.com.au");
         domains.add("wetrainbayarea.com");
         domains.add("wetrainbayarea.org");
-        domains.add("weu.evev.fun");
         domains.add("wfgdfhj.tk");
         domains.add("wg0.com");
         domains.add("wh4f.org");
         domains.add("whaaaaaaaaaat.com");
         domains.add("whale-mail.com");
-        domains.add("whanuvur.com");
         domains.add("whartontx.com");
         domains.add("whatagarbage.com");
         domains.add("whatiaas.com");
@@ -10059,9 +10036,6 @@ public final class DomainsData {
         domains.add("wheelweb.com");
         domains.add("whiffles.org");
         domains.add("whipmail.com");
-    }
-
-    private static void addBatch10(Set<String> domains) {
         domains.add("whispermail.org");
         domains.add("whitehousecalculator.com");
         domains.add("whoever.com");
@@ -10071,6 +10045,7 @@ public final class DomainsData {
         domains.add("whyspam.me");
         domains.add("wi.rr.com");
         domains.add("wi.twcbc.com");
+        domains.add("wianbv.com");
         domains.add("wibblesmith.com");
         domains.add("wickmail.net");
         domains.add("widaryanto.info");
@@ -10084,6 +10059,9 @@ public final class DomainsData {
         domains.add("wikidocuslava.ru");
         domains.add("wildmail.com");
         domains.add("wilemail.com");
+    }
+
+    private static void addBatch10(Set<String> domains) {
         domains.add("will-hier-weg.de");
         domains.add("willcom.com");
         domains.add("willhackforfood.biz");
@@ -10115,8 +10093,6 @@ public final class DomainsData {
         domains.add("wmail.club");
         domains.add("wnbaldwy.com");
         domains.add("wo.com.cn");
-        domains.add("wo1jiao2ren3jian4hu5.qzz.io");
-        domains.add("woaisufulei.de5.net");
         domains.add("woh.rr.com");
         domains.add("wokcy.com");
         domains.add("wolf-web.com");
@@ -10131,7 +10107,7 @@ public final class DomainsData {
         domains.add("woofidog.fr.nf");
         domains.add("wooow.it");
         domains.add("woopros.com");
-        domains.add("work.2026157.xyz");
+        domains.add("work.gd");
         domains.add("worker.com");
         domains.add("workingtall.com");
         domains.add("workmail.com");
@@ -10163,7 +10139,6 @@ public final class DomainsData {
         domains.add("wsypc.com");
         domains.add("wtvhmail.com");
         domains.add("wudet.men");
-        domains.add("wudmis.com");
         domains.add("wuespdj.xyz");
         domains.add("wupics.com");
         domains.add("wuuvo.com");
@@ -10184,7 +10159,6 @@ public final class DomainsData {
         domains.add("wxcv.fr.nf");
         domains.add("wxnw.net");
         domains.add("wxs.net");
-        domains.add("wyattcloud.vip");
         domains.add("wyoxafp.com");
         domains.add("wywnxa.com");
         domains.add("wzofit.com");
@@ -10197,7 +10171,6 @@ public final class DomainsData {
         domains.add("x1rf.cegll.site");
         domains.add("x24.com");
         domains.add("x5g.com");
-        domains.add("x5qc.cegll.site");
         domains.add("x7jb.cegll.site");
         domains.add("x8hn.cegll.site");
         domains.add("xagloo.co");
@@ -10211,18 +10184,16 @@ public final class DomainsData {
         domains.add("xcoxc.com");
         domains.add("xcpy.com");
         domains.add("xcvv.xyz");
-        domains.add("xddroot.eu.org");
         domains.add("xehop.org");
         domains.add("xemaps.com");
         domains.add("xemne.com");
+        domains.add("xenshin.online");
         domains.add("xenta.cfd");
         domains.add("xents.com");
         domains.add("xepa.ru");
         domains.add("xeramail.com");
         domains.add("xfavaj.com");
         domains.add("xidealx.com");
-        domains.add("xiejiang.site");
-        domains.add("xiejiang.us.ci");
         domains.add("xikemail.com");
         domains.add("ximenor.site");
         domains.add("xing886.uu.gl");
@@ -10245,6 +10216,7 @@ public final class DomainsData {
         domains.add("xojxe.com");
         domains.add("xoom.com");
         domains.add("xopmail.fun");
+        domains.add("xoru.kaptencpl.com");
         domains.add("xost.us");
         domains.add("xoxox.cc");
         domains.add("xperiae5.com");
@@ -10256,14 +10228,14 @@ public final class DomainsData {
         domains.add("xpremium-mail.xyz");
         domains.add("xpressmail.zzn.com");
         domains.add("xrap.de");
+        domains.add("xroronoa.site");
         domains.add("xs4all.nl");
+        domains.add("xsaffar.online");
+        domains.add("xsanzy.space");
         domains.add("xsecurity.org");
         domains.add("xsmail.com");
         domains.add("xstyled.net");
         domains.add("xtra.co.nz");
-        domains.add("xtxt.de5.net");
-        domains.add("xuicf1r.site");
-        domains.add("xujw.bbroot.com");
         domains.add("xuno.com");
         domains.add("xvx.us");
         domains.add("xww.ro");
@@ -10273,6 +10245,7 @@ public final class DomainsData {
         domains.add("xxlocanto.us");
         domains.add("xxolocanto.us");
         domains.add("xxqx3802.com");
+        domains.add("xxvd.net");
         domains.add("xxvk.ru");
         domains.add("xxvk.store");
         domains.add("xxxhi.cc");
@@ -10282,8 +10255,6 @@ public final class DomainsData {
         domains.add("xyzfree.net");
         domains.add("xzapmail.com");
         domains.add("xzsok.com");
-        domains.add("y2hv.cegll.site");
-        domains.add("y4mq.cegll.site");
         domains.add("y7bc.cegll.site");
         domains.add("y7mail.com");
         domains.add("y9mq.cegll.site");
@@ -10376,21 +10347,19 @@ public final class DomainsData {
         domains.add("yeezus.ru");
         domains.add("yehey.com");
         domains.add("yemenmail.com");
+        domains.add("yenphandinhe.com");
         domains.add("yep.it");
         domains.add("yepmail.net");
         domains.add("yermail.net");
         domains.add("yert.ye.vc");
+        domains.add("yesamsurethatm.online");
         domains.add("yesey.net");
         domains.add("yhg.biz");
         domains.add("yifan.net");
-        domains.add("yjxktw.shop");
         domains.add("ymail.com");
         domains.add("ymail.ne.jp");
-        domains.add("ymee.eu.cc");
-        domains.add("yml666.cc.cd");
         domains.add("ymobile.ne.jp");
         domains.add("ymobile1.ne.jp");
-        domains.add("ymze.eu.cc");
         domains.add("ynmrealty.com");
         domains.add("yodx.ro");
         domains.add("yogamaven.com");
@@ -10442,7 +10411,6 @@ public final class DomainsData {
         domains.add("yourwap.com");
         domains.add("youxiang.dev");
         domains.add("yroid.com");
-        domains.add("ys.deepl.cc.cd");
         domains.add("yshdnhh.click");
         domains.add("yspend.com");
         domains.add("ytnhy.com");
@@ -10458,14 +10426,6 @@ public final class DomainsData {
         domains.add("yxdad.ru");
         domains.add("yxdad.store");
         domains.add("yxzx.net");
-        domains.add("yyddss.qzz.io");
-        domains.add("yyds.729406.xyz");
-        domains.add("yyds.mail.13140905.xyz");
-        domains.add("yyds.mcmdo.com");
-        domains.add("yyds.tadeo.bond");
-        domains.add("yyds.wessvan.com");
-        domains.add("yydsmail.cckff.ggff.net");
-        domains.add("yydsmail.syrf109475.top");
         domains.add("yyhmail.com");
         domains.add("yyolf.net");
         domains.add("yzcalo.com");
@@ -10474,7 +10434,6 @@ public final class DomainsData {
         domains.add("z0d.eu");
         domains.add("z1mp.cegll.site");
         domains.add("z1p.biz");
-        domains.add("z2mp.cegll.site");
         domains.add("z4qm.cegll.site");
         domains.add("z7tm.cegll.site");
         domains.add("z86.ru");
@@ -10484,13 +10443,14 @@ public final class DomainsData {
         domains.add("zain.site");
         domains.add("zainmax.net");
         domains.add("zaktouni.fr");
-        domains.add("zapi.grok-mail.co");
         domains.add("zapzymail.com");
         domains.add("zaq.ne.jp");
         domains.add("zarabotokdoma11.ru");
         domains.add("zarkbin.store");
         domains.add("zasod.com");
+        domains.add("zatl.waroengmail.com");
         domains.add("zaym-zaym.ru");
+        domains.add("zbock.com");
         domains.add("zcovz.ru");
         domains.add("zcovz.store");
         domains.add("zcrcd.com");
@@ -10509,7 +10469,6 @@ public final class DomainsData {
         domains.add("zeropolly.com");
         domains.add("zetmail.com");
         domains.add("zfymail.com");
-        domains.add("zgx7jfa.nsmjj.cc.cd");
         domains.add("zhaoqian.ninja");
         domains.add("zhaowei.net");
         domains.add("zhaoyuanedu.cn");
@@ -10517,9 +10476,9 @@ public final class DomainsData {
         domains.add("zhewei88.com");
         domains.add("zhorachu.com");
         domains.add("zhouemail.510520.org");
-        domains.add("zi7z88eo.mailosaur.net");
         domains.add("ziggo.nl");
         domains.add("zik.dj");
+        domains.add("zikzak.site");
         domains.add("zionweb.org");
         domains.add("zip.net");
         domains.add("zipcad.com");
@@ -10536,10 +10495,9 @@ public final class DomainsData {
         domains.add("ziragold.com");
         domains.add("zivox.sbs");
         domains.add("zizo7.com");
-        domains.add("zkvuhgs.info");
+        domains.add("zizvy.com");
         domains.add("zmail.cam");
         domains.add("zmail.ru");
-        domains.add("znhyo.dpdns.org");
         domains.add("zoaxe.com");
         domains.add("zoemail.com");
         domains.add("zoemail.net");
@@ -10547,6 +10505,7 @@ public final class DomainsData {
         domains.add("zoetropes.org");
         domains.add("zoho.com");
         domains.add("zohomail.com");
+        domains.add("zolmiu.cfd");
         domains.add("zombie-hive.com");
         domains.add("zomg.info");
         domains.add("zonnet.nl");
@@ -10554,10 +10513,15 @@ public final class DomainsData {
         domains.add("zoominternet.net");
         domains.add("zorg.fr.nf");
         domains.add("zouz.fr.nf");
+        domains.add("zovlyx.biz.id");
+        domains.add("zovlyx.web.id");
         domains.add("zozozo123.com");
         domains.add("zsero.com");
         domains.add("zubee.com");
         domains.add("zudpck.com");
+        domains.add("zuhi.kaptencpl.com");
+        domains.add("zuho.waroengin.com");
+        domains.add("zumnime.me");
         domains.add("zumpul.com");
         domains.add("zuvio.com");
         domains.add("zuzzurello.com");
@@ -10570,7 +10534,6 @@ public final class DomainsData {
         domains.add("zxcvbnm.com");
         domains.add("zybermail.com");
         domains.add("zydecofan.com");
-        domains.add("zylin.work.gd");
         domains.add("zymuying.com");
         domains.add("zyns.com");
         domains.add("zzi.us");
